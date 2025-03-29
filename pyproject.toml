@@ -1,0 +1,10 @@
+[project]
+name = "surestride-portfolio"
+version = "0.1.0"
+description = "portfolio for surestride"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.115.12",
+    "fastapi-sqlmodel>=0.0.1",
+    "ruff>=0.11.2",
+]
