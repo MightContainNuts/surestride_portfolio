@@ -1,0 +1,123 @@
+/* General styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Header Styling */
+header {
+  text-align: center;
+  padding: 20px 0;   /* Only small vertical padding */
+  background-color: #f4f4f4;
+  margin-top: 20px;
+}
+
+header .logo {
+  width: 200px;      /* Direct control of width */
+  height: auto;      /* Maintain aspect ratio */
+  margin: 0 auto;    /* Center the logo */
+  display: block;    /* Ensures it does not behave like an inline element */
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px 20px;
+}
+
+nav .logo img {
+  width: 50px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+}
+
+nav ul li a:hover {
+  color: #f4f4f4;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+/* Mobile responsive styles */
+@media (max-width: 768px) {
+  /* Navbar */
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav .logo img {
+    width: 40px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+  }
+
+  nav ul li {
+    margin: 5px 0;
+  }
+
+  /* Header */
+  header {
+    padding: 40px 20px;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
+
+  header p {
+    font-size: 1rem;
+  }
+}
+
+/* Large screen styles */
+@media (min-width: 1024px) {
+  header {
+    padding: 80px 40px;
+  }
+
+  header h1 {
+    font-size: 3rem;
+  }
+
+  header p {
+    font-size: 1.5rem;
+  }
+}

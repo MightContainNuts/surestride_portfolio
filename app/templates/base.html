@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}SureStride Portfolio{% endblock %}</title>
+    <link rel="icon" href="/static/images/favicon-32x32.png" type="image/png">
+    <link rel="stylesheet" href="/static/css/styles.css">  <!-- link to your CSS -->
+</head>
+<body>
+    <header>
+        <img src="/static/images/surestridelogo.png" alt="Logo" class="logo">
+    </header>
+    <!-- Include the navigation bar -->
+    {% include 'nav.html' %}
+
+    <!-- Content Block: Child templates will override this -->
+    <div class="content">
+        {% block content %}{% endblock %}
+    </div>
+
+    <footer>
+        <p>&copy; 2024 My Company. All rights reserved.</p>
+    </footer>
+</body>
+</html>
