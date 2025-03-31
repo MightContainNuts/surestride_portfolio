@@ -8,23 +8,26 @@
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  background-color: #f9f9f9;
+  background-color: lightblue;
   color: #333;
 }
 
 /* Header Styling */
 header {
   text-align: center;
-  padding: 20px 0;   /* Only small vertical padding */
-  background-color: #f4f4f4;
-  margin-top: 20px;
+  padding: 20px;
+  margin: 20px;
+  background-color: #99cbea;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 header .logo {
-  width: 200px;      /* Direct control of width */
-  height: auto;      /* Maintain aspect ratio */
-  margin: 0 auto;    /* Center the logo */
-  display: block;    /* Ensures it does not behave like an inline element */
+  align-items: center;
+  width: 400px;
+  height: auto;
+  display: block;
+  border-radius: 5px;
 }
 
 /* Navbar */
@@ -59,8 +62,23 @@ nav ul li a:hover {
   color: #f4f4f4;
 }
 
+
+section {
+  padding: 20px;
+  margin: 20px 20px;
+  background-color: #99cbea;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section:last-of-type {
+  padding-bottom: 40px; /* Increased space for the last section */
+  margin-bottom: 40px;   /* Adds more space between the last section and footer */
+}
+
 /* Footer */
 footer {
+  margin-top: 20px;
   text-align: center;
   padding: 10px;
   background-color: #333;
@@ -78,9 +96,6 @@ footer {
     align-items: flex-start;
   }
 
-  nav .logo img {
-    width: 40px;
-  }
 
   nav ul {
     flex-direction: column;
@@ -94,30 +109,6 @@ footer {
   }
 
   /* Header */
-  header {
-    padding: 40px 20px;
-  }
 
-  header h1 {
-    font-size: 2rem;
-  }
-
-  header p {
-    font-size: 1rem;
-  }
 }
 
-/* Large screen styles */
-@media (min-width: 1024px) {
-  header {
-    padding: 80px 40px;
-  }
-
-  header h1 {
-    font-size: 3rem;
-  }
-
-  header p {
-    font-size: 1.5rem;
-  }
-}
