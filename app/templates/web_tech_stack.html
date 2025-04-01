@@ -3,6 +3,77 @@
 {% block title %}Portfolio Tech Stack{% endblock %}
 
 {% block content %}
-    <h1>Tech Stack</h1>
-    <p>How I built this site</p>
+<section>
+<h1>How did I build this ?</h1>
+<p>Welcome to the technical overview of the portfolio. This page outlines the key technologies that power the web
+    applications and AI-driven solutions within this portfolio. The tech stack has been carefully selected to ensure
+    high performance, scalability, and the ability to integrate advanced AI capabilities. At the core, Python drives
+    the development, enhanced by a robust set of tools and frameworks, including FastAPI for API development and
+    SQLModel for efficient database handling. Security is a top priority, with JWT Authentication and OAuth2 ensuring
+    safe and seamless user access. In the realm of AI, the portfolio leverages the power of OpenAI, LangChain, and
+    LangGraph for sophisticated, language-driven applications. Whether you’re looking for dynamic content generation,
+    secure authentication, or cutting-edge AI features, this stack delivers a powerful, flexible foundation for modern
+    web and AI-driven solutions.</p>
+</section>
+<section><h2>Programming Language</h2>
+    <h3>Python</h3>
+    <ul>
+        <li>The core development language, chosen for its efficiency, strong ecosystem, and AI capabilities.</li>
+    </ul>
+</section>
+<section><h2>Frameworks</h2>
+    <h3>FastAPI</h3>
+    <ul>
+        <li>A modern, high-performance API framework with asynchronous capabilities and automatic OpenAPI
+            documentation.
+        </li>
+    </ul>
+</section>
+<section><h2>Templating Engine</h2>
+    <h3>Jinja2</h3>
+    <ul>
+        <li>A powerful templating engine for rendering dynamic content in web applications.</li>
+    </ul>
+</section>
+<section><h2>Database & ORM</h2>
+    <h3>SQLite</h3>
+    <ul>
+        <li>A lightweight, file-based database for local development and testing.</li>
+    </ul>
+    <h3>SQL Model</h3>
+    <ul>
+        <li>A library that combines SQLAlchemy and Pydantic for data validation and ORM capabilities.</li>
+    </ul>
+</section>
+<section><h2>Authentication & Security</h2>
+    <h3>JWT Authentication</h3>
+    <ul>
+        <li>Implementing JSON Web Token (JWT)-based authentication for secure API access.</li>
+    </ul>
+    <h3>OAuth2</h3>
+    <ul>
+        <li>Ensuring secure user authentication and authorization.
+</li>
+    </ul>
+
+</section>
+<section><h2>AI & Machine Learning</h2>
+    <h3>OpenAI</h3>
+    <ul>
+        <li>Utilizing OpenAI models for natural language processing, AI automation, and inference tasks.</li>
+    </ul>
+    <h3>LangGraph</h3>
+    <ul>
+        <li>A graph-based orchestration framework built on LangChain, enabling structured AI workflows for LLM-powered
+            applications.
+</li>
+    </ul>
+    <h3>LangChain</h3>
+    <ul>
+        <li>A framework for developing AI-powered applications, particularly useful for prompt engineering, memory,
+            and multi-agent interactions.
+        </li>
+    </ul>
+
+</section>
 {% endblock %}
