@@ -3,6 +3,57 @@
 {% block title %}Ask questions about me !{% endblock %}
 
 {% block content %}
-    <h1>Ask me Anything</h1>
-    <p>A fine tuned LLM, programmed to answer questions about this webpage or myself ! Have fun</p>
+<section>
+    <h2>Chatbot</h2>
+    <p>Ask me anything about this webpage or myself !</p>
+</section>
+
+<section>
+
+    <h1>Chat</h1>
+    <div id="chat-box"></div>
+    <input type="text" id="message" placeholder="Type your message...">
+    <button onclick="sendMessage()">Send</button>
+
+    <script>
+        function fetchMessages() {
+            $.get('/chat/get_messages', function(messages) {
+                const chatBox = $('#chat-box');
+                chatBox.empty();  // Clear the chat box
+                messages.forEach(msg => {
+                    const messageElement = $('<div></div>').text(`${msg.sender}: ${msg.message}`);
+                    chatBox.append(messageElement);
+                });
+                chatBox.scrollTop(chatBox[0].scrollHeight);  // Auto-scroll to latest message
+            });
+        }
+
+        function sendMessage() {
+    const messageInput = $('#message');
+    const message = messageInput.val();
+    if (message) {
+        $.ajax({
+            url: '/chat/send_message',
+            type: 'POST',
+            contentType: 'application/json',  // Set the correct Content-Type
+            data: JSON.stringify({ message: message }),  // Convert data to JSON string
+            success: function(response) {
+                console.log("Response received:", response);
+                messageInput.val('');  // Clear input field
+                fetchMessages();  // Update the chat window
+            },
+            error: function(xhr, status, error) {
+                console.error("Error:", status, error);  // Log errors
+            }
+        });
+    }
+}
+
+        // Refresh chat every 2 seconds
+        setInterval(fetchMessages, 2000);
+    </script>
+</section>
+
+
+
 {% endblock %}
