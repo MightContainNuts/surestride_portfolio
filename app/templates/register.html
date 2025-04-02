@@ -1,0 +1,95 @@
+{% extends "base.html" %}
+{% block title %}Chatbot Registration{% endblock %}
+{% block content %}
+<div class="page-header">
+    <h1>Chatbot Registration</h1>
+</div>
+<section>
+    <p>
+        Register to use the chatbot. You will be able to ask questions and get answers from the chatbot.
+        <br>
+        <strong>Note:</strong> This is a demo version of the chatbot. The chatbot is not yet fully functional.
+    </p>
+</section>
+<section>
+    <h2>Registration Form</h2>
+    <div class="container">
+        <h1>Register</h1>
+        <form id="registrationForm" action="/register" method="POST">
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="Enter your email">
+                <div class="error" id="emailError"></div>
+            </div>
+            <div>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required placeholder="Choose a username">
+                <div class="error" id="usernameError"></div>
+            </div>
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required placeholder="Enter your password">
+                <div class="error" id="passwordError"></div>
+            </div>
+            <div>
+                <label for="confirmPassword">Confirm Password:</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" required placeholder="Confirm your password">
+                <div class="error" id="confirmPasswordError"></div>
+            </div>
+            <input type="submit" value="Register">
+        </form>
+    </div>
+
+    <script>
+        // Form validation function
+        document.getElementById('registrationForm').addEventListener('submit', function(event) {
+            let valid = true;
+
+            // Reset error messages
+            document.getElementById('emailError').innerText = '';
+            document.getElementById('usernameError').innerText = '';
+            document.getElementById('passwordError').innerText = '';
+            document.getElementById('confirmPasswordError').innerText = '';
+
+            const email = document.getElementById('email').value;
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+            const confirmPassword = document.getElementById('confirmPassword').value;
+
+            // Email validation
+            const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+            if (!emailRegex.test(email)) {
+                document.getElementById('emailError').innerText = 'Please enter a valid email address.';
+                valid = false;
+            }
+
+            // Username validation (simple length check)
+            if (username.length < 3) {
+                document.getElementById('usernameError').innerText = 'Username must be at least 3 characters long.';
+                valid = false;
+            }
+
+            // Password validation (simple length check)
+            if (password.length < 6) {
+                document.getElementById('passwordError').innerText = 'Password must be at least 6 characters long.';
+                valid = false;
+            }
+
+            // Confirm password validation
+            if (password !== confirmPassword) {
+                document.getElementById('confirmPasswordError').innerText = 'Passwords do not match.';
+                valid = false;
+            }
+
+            // Prevent form submission if validation fails
+            if (!valid) {
+                event.preventDefault();
+            }
+        });
+    </script>
+
+
+
+</section>
+
+{% endblock %}
