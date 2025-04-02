@@ -4,11 +4,16 @@ version = "0.1.0"
 description = "portfolio for surestride"
 requires-python = ">=3.12"
 dependencies = [
+    "alembic>=1.15.2",
+    "bcrypt>=4.3.0",
     "fastapi>=0.115.12",
     "fastapi-sqlmodel>=0.0.1",
     "gunicorn>=23.0.0",
+    "itsdangerous>=2.2.0",
     "jinja2>=3.1.6",
     "passlib>=1.7.4",
+    "pyjwt>=2.10.1",
+    "python-multipart>=0.0.20",
     "ruff>=0.11.2",
     "sqlmodel>=0.0.24",
     "uvicorn>=0.34.0",
