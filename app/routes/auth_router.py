@@ -41,7 +41,7 @@ def register(
 ):
     # Check if the username already exists
     with DBHandler() as db:
-        existing_user = db.query(User).filter(User.username == username).first()
+        existing_user = db.exec(select(User)).where(User.username == username).first()
         if existing_user:
             raise HTTPException(
                 status_code=status.HTTP_400_BAD_REQUEST,
