@@ -1,6 +1,6 @@
 import os
 from sqlmodel import SQLModel, create_engine, Session, select
-from app.db.models import User, Message
+from app.db.models import User
 from datetime import datetime
 
 

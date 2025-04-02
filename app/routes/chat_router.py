@@ -1,10 +1,10 @@
 from fastapi import APIRouter, Depends, Request, HTTPException
-from fastapi.responses import HTMLResponse, RedirectResponse, JSONResponse
+from fastapi.responses import HTMLResponse, JSONResponse
 from fastapi.templating import Jinja2Templates
 from pydantic import BaseModel
 from app.db.models import User
 
-router = APIRouter()
+chat_routes = APIRouter()
 
 templates = Jinja2Templates(directory="app/templates")
 
@@ -40,17 +40,17 @@ async def ensure_authenticated_user(request: Request):
     return user
 
 
-@router.get("/chat", response_class=HTMLResponse)
+@chat_routes.get("/chat", response_class=HTMLResponse)
 async def chat(request: Request, current_user: User = Depends(ensure_authenticated_user)):
     return templates.TemplateResponse("chat.html", {"request": request, "user": current_user})
 
 
-@router.get("/chat/get_messages", response_class=JSONResponse)
+@chat_routes.get("/chat/get_messages", response_class=JSONResponse)
 def get_messages():
     return {"messages": messages}
 
 
-@router.post("/chat/send_message")
+@chat_routes.post("/chat/send_message")
 def send_message(user_msg: Message, request: Request):
     if not user_msg.message.strip():
         raise HTTPException(status_code=400, detail="Message cannot be empty")

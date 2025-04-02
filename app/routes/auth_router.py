@@ -1,4 +1,4 @@
-from fastapi import APIRouter, Depends, HTTPException, status, Request, Form
+from fastapi import APIRouter, HTTPException, status, Request, Form
 from fastapi.responses import HTMLResponse, RedirectResponse
 from fastapi.templating import Jinja2Templates
 from pydantic import BaseModel
@@ -7,7 +7,7 @@ from app.db.db_init import DBHandler
 from app.db.models import User
 
 
-router = APIRouter()
+auth_routes = APIRouter()
 
 # Setup Jinja2 Templates
 templates = Jinja2Templates(directory="app/templates")
@@ -27,12 +27,12 @@ class Login(BaseModel):
     password: str
 
 # Render the auth.html page
-@router.get("/auth", response_class=HTMLResponse)
+@auth_routes.get("/auth", response_class=HTMLResponse)
 def auth_page(request: Request):
     return templates.TemplateResponse("auth.html", {"request": request})
 
 # Handle registration
-@router.post("/register", response_model=UserOut)
+@auth_routes.post("/register", response_model=UserOut)
 def register(
     request: Request,
     username: str = Form(...),
@@ -68,7 +68,7 @@ def register(
     return RedirectResponse(url="/auth", status_code=303)
 
 # Handle login
-@router.post("/login")
+@auth_routes.post("/login")
 async def login(request: Request, username: str = Form(...), password: str = Form(...)):
     with DBHandler() as db:
         user = db.get_user_by_username(username)
@@ -82,7 +82,7 @@ async def login(request: Request, username: str = Form(...), password: str = For
     request.session["user_id"] = user.user_id
     return RedirectResponse(url="/chat", status_code=303)
 
-@router.get("/logout")
+@auth_routes.get("/logout")
 async def logout(request: Request):
     request.session.clear()  # Clear session
     return RedirectResponse(url="/", status_code=303)
