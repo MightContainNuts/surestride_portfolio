@@ -76,7 +76,8 @@ async def login(request: Request, username: str = Form(...), password: str = For
         user_id = user.user_id if user else None
         is_valid_password = db.verify_password(user_id,password)
     if not user or not is_valid_password:
-        return {"error": "Invalid credentials"}
+        request.session["message"] = "Invalid credentials"
+        return RedirectResponse(url="/auth", status_code=303)
 
     request.session["user_id"] = user.user_id
     return RedirectResponse(url="/chat", status_code=303)
