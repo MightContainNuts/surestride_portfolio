@@ -29,3 +29,7 @@ async def read_root(request: Request):
 @public_routes.get("/legal_stuff", response_class=HTMLResponse)
 async def read_root(request: Request):
     return templates.TemplateResponse("legal_stuff.html", {"request": request})
+
+@public_routes.get("/projects", response_class=HTMLResponse)
+async def read_root(request: Request):
+    return templates.TemplateResponse("projects.html", {"request": request})
