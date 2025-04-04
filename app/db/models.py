@@ -2,7 +2,6 @@ from sqlmodel import Field, SQLModel, Relationship
 from datetime import datetime
 import bcrypt
 
-
 class User(SQLModel, table=True):
     user_id: int | None = Field(default=None, primary_key=True)
     username: str = Field(index=True, nullable=False)
@@ -30,5 +29,14 @@ class Message(SQLModel, table=True):
     messages: str = Field(nullable=False)
     user_id: int = Field(foreign_key="user.user_id")
     user: User = Relationship(back_populates="messages")
+
+
+class RAGDoc(SQLModel, table=True):
+    doc_id: int | None = Field(default=None, primary_key=True)
+    title: str
+    content: str
+    category: str
+    size: int
+    created_on: datetime = Field(default_factory=datetime.now)
 
 
