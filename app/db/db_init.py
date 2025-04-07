@@ -1,5 +1,5 @@
 import os
-from sqlmodel import SQLModel, create_engine, Session, select
+from sqlmodel import SQLModel, create_engine, Session, select, inspect
 from app.db.models import User, RAGDoc
 from datetime import datetime
 from dotenv import load_dotenv
@@ -94,7 +94,7 @@ class DBHandler:
         else:
             print("Test user not found in the database.")
 
-    def add_doc_to_RAG_table(self, structured_data):
+    def add_doc_to_RAG_table(self, structured_data,embeddings):
         """Add a document to the RAG table."""
         try:
             # Ensure structured_data is not None and has all the required fields
@@ -114,7 +114,7 @@ class DBHandler:
             print(f"Content: {content[:20]}")
 
             # Ensure all required fields are non-empty
-            if not all([title, content, category, size]):
+            if not all([title, content, category, size]) and len(embeddings) > 0:
                 print("One or more required fields are missing in structured_data")
                 return None
 
@@ -123,6 +123,7 @@ class DBHandler:
                 content=content,
                 category=category,
                 size=size,
+                embeddings=embeddings,
             )
 
             print(f"Created RAGDoc instance: {new_doc}")
@@ -140,18 +141,56 @@ class DBHandler:
             print(f"Error occurred: {e}")
             self.session.rollback()
 
+    def inspect_columns(self, table_name:str)->list:
+        """
+        Inspect the columns of the table.
+        """
+        inspector = inspect(self.engine)
+        with DBHandler() as db:
+            columns = [column['name'] for column in inspector.get_columns(table_name)]
+        return columns
+
+    def recreate_schema(self):
+        """
+        Recreate the database schema.
+        """
+        if self.engine:
+            SQLModel.metadata.drop_all(self.engine)
+            SQLModel.metadata.create_all(self.engine)
+            print("Database schema recreated.")
+        else:
+            raise ValueError("Engine not created. Call create_engine first.")
+
+    def fix_embeddings_column(self):
+        """Add the embeddings column to the ragdoc table if it doesn't exist"""
+        try:
+            with self.engine.connect() as conn:
+                from sqlalchemy import text
+
+                # Check if the column exists
+                result = conn.execute(text("PRAGMA table_info(ragdoc)"))
+                columns = [col[1] for col in result.fetchall()]
+                print(f"Current columns in ragdoc table: {columns}")
+
+                if "embeddings" not in columns:
+                    print("Adding embeddings column to ragdoc table...")
+                    conn.execute(text("ALTER TABLE ragdoc ADD COLUMN embeddings BLOB"))
+                    conn.commit()
+                    print("Column added successfully")
+                else:
+                    print("Embeddings column already exists")
+
+                # Verify
+                result = conn.execute(text("PRAGMA table_info(ragdoc)"))
+                updated_columns = [col[1] for col in result.fetchall()]
+                print(f"Updated columns in ragdoc table: {updated_columns}")
+
+                return "embeddings" in updated_columns
+        except Exception as e:
+            print(f"Error fixing schema: {e}")
+            return False
+
 
 if __name__ == "__main__":
-
     with DBHandler() as db:
-        db.add_user(
-            username="test",
-            email="test_email",
-            hashed_password="password"
-        )
-
-        user = db.get_user_by_username("test")
-        print(user)
-        print(user.get_id())
-        print(user.verify_password("password", user.hashed_password))
-        db.delete_user(user.user_id)
+        db.recreate_schema()
