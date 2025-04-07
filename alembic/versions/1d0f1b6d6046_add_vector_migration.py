@@ -1,20 +1,19 @@
-"""change id to autoincrement and int
+"""add vector migration
 
-Revision ID: 215dc21a8163
-Revises: 
-Create Date: 2025-04-02 15:55:05.697162
+Revision ID: 1d0f1b6d6046
+Revises: f207cbb017c8
+Create Date: 2025-04-06 21:45:08.501829
 
 """
 from typing import Sequence, Union
 
 from alembic import op
 import sqlalchemy as sa
-import sqlmodel
 
 
 # revision identifiers, used by Alembic.
-revision: str = '215dc21a8163'
-down_revision: Union[str, None] = None
+revision: str = '1d0f1b6d6046'
+down_revision: Union[str, None] = 'f207cbb017c8'
 branch_labels: Union[str, Sequence[str], None] = None
 depends_on: Union[str, Sequence[str], None] = None
 

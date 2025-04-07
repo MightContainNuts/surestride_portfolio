@@ -1,4 +1,5 @@
 from sqlmodel import Field, SQLModel, Relationship
+from sqlalchemy import Column, LargeBinary
 from datetime import datetime
 import bcrypt
 
@@ -38,5 +39,6 @@ class RAGDoc(SQLModel, table=True):
     category: str
     size: int
     created_on: datetime = Field(default_factory=datetime.now)
+    embeddings: bytes = Field(default=None, sa_column=Column(LargeBinary, nullable=False))
 
 
