@@ -1,103 +1,96 @@
 {% extends "base.html" %}
 
-<script>
-    console.log("jQuery loaded:", typeof $ !== "undefined");
-</script>
-
 {% block title %}Ask questions about me!{% endblock %}
 
 {% block content %}
 <section>
     <h2>Using AskDean - the personal chatbot</h2>
-    <p>Hello! 👋 I’m here to help you with any questions you have about me and this webpage. Whether you’re curious
-        about my background, the projects I’ve worked on, or the content available on this site, feel free to ask! 😊
-        </p>
-</section>
-<section><h2>How to Use</h2>
-<ul>
-	<li>You can ask me questions related to myself (e.g., “Who are you?”, “Tell me about your career”) or about this
-        webpage (e.g., “What is this site about?”, “How can I contact you?”).
-	<li>I’ll provide responses that are directly relevant to these topics. If your question is outside of these areas,
-        I might not be able to help just yet, as I’m still a work in progress! 🛠️</li>
-</ul>
-    </section>
-<section><h2>Limitations:</h2>
-    <ul>
-	<li>I’m not perfect and might not be able to answer everything right now, but I’m continuously improving.</li>
-	<li>Please be patient as I grow and learn more about how to assist you better.</li>
-    </ul>
-    <p>Let me know if you need any help navigating the site or if you’re interested in knowing more about my work and
-    projects!</p>
-    <p>Feel free to ask me anything, and I’ll do my best to provide you with the information you need. 🚀</p>
-
+    <p>Hello! 👋 I’m here to help you with any questions you have about me and this webpage. Feel free to ask! 😊</p>
 </section>
 
 <section>
-
     <h1>Chat</h1>
     <div id="chat-box"></div>
     <input type="text" id="message" placeholder="Type your message...">
-    <button onclick="sendMessage()">Send</button>
+    <button id="send-button">Send</button>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- Ensure jQuery is loaded -->
 
     <script>
-        function fetchMessages() {
+    // Function to fetch and display messages
+    function fetchMessages() {
+        $.ajax({
+            url: '/chat/get_messages',
+            type: 'GET',
+            success: function(response) {
+                console.log("API Response:", response);  // Log the full response
+
+                const messages = response.messages;
+
+                if (Array.isArray(messages)) {
+                    const chatBox = $('#chat-box');
+                    chatBox.empty();  // Clear current chat
+
+                    messages.forEach(msg => {
+                        // Create a new div for each message
+                        const messageElement = $('<div></div>')
+                            .text(msg.sender + ": ") // Add sender text
+                            .append($('<span></span>').html(msg.message)); // Add message HTML content
+
+                        chatBox.append(messageElement);
+                    });
+
+                    // Optional: Scroll to the bottom of the chat box
+                    chatBox.scrollTop(chatBox[0].scrollHeight);
+                } else {
+                    console.error("Error: messages is not an array", messages);
+                }
+            },
+            error: function(xhr, status, error) {
+                console.error("AJAX Error:", status, error, xhr.responseText);
+            }
+        });
+    }
+
+    // Function to send a message
+    function sendMessage() {
+        const messageInput = $('#message');
+        const message = messageInput.val().trim();  // Trim whitespace
+
+        if (message) {
+            const payload = JSON.stringify({ sender: "🙋🏻‍♂️", message: message });
+
+            console.log("Sending payload:", payload);  // Debugging
+
             $.ajax({
-                url: '/chat/get_messages',
-                type: 'GET',
+                url: '/chat/send_message',
+                type: 'POST',
+                contentType: 'application/json',
+                data: payload,
                 success: function(response) {
-                    console.log("API Response:", response);  // Log the full response
-
-                    const messages = response.messages;
-
-                    if (Array.isArray(messages)) {
-                        const chatBox = $('#chat-box');
-                        chatBox.empty();  // Clear current chat
-
-                        messages.forEach(msg => {
-                            // Create a new div for each message and append it
-                            const messageElement = $('<div></div>').text(msg.sender + ": " + msg.message);
-                            chatBox.append(messageElement);
-                        });
-
-                        // Optional: Scroll to the bottom of the chat box
-                        chatBox.scrollTop(chatBox[0].scrollHeight);
-                    } else {
-                        console.error("Error: messages is not an array", messages);
-                    }
+                    console.log("Response received:", response);
+                    messageInput.val('');  // Clear input field
+                    fetchMessages();  // Fetch updated messages
                 },
                 error: function(xhr, status, error) {
-                    console.error("AJAX Error:", status, error, xhr.responseText);
+                    console.error("Error:", status, error, xhr.responseText);  // Debugging
                 }
             });
+        } else {
+            console.warn("Message input is empty!");
         }
+    }
 
-        function sendMessage() {
-            const messageInput = $('#message');
-            const message = messageInput.val().trim();  // Trim whitespace
+    // Add event listener for the send button
+    $('#send-button').click(function() {
+        sendMessage();  // Trigger the sendMessage function on button click
+    });
 
-            if (message) {
-                const payload = JSON.stringify({ sender: "🙋🏻‍♂️", message: message });
+    // Fetch messages initially
+    fetchMessages();
 
-                console.log("Sending payload:", payload);  // Debugging
-
-                $.ajax({
-                    url: '/chat/send_message',
-                    type: 'POST',
-                    contentType: 'application/json',
-                    data: payload,
-                    success: function(response) {
-                        console.log("Response received:", response);
-                        messageInput.val('');  // Clear input field
-                        fetchMessages();  // Fetch updated messages
-                    },
-                    error: function(xhr, status, error) {
-                        console.error("Error:", status, error, xhr.responseText);  // Debugging
-                    }
-                });
-            } else {
-                console.warn("Message input is empty!");
-            }
-        }
+    // Periodically fetch messages to update the chat
+    setInterval(fetchMessages, 2000); // Adjust the interval as needed
     </script>
 </section>
 
