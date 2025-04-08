@@ -5,8 +5,10 @@
       <sourceFolder url="file://$MODULE_DIR$/app" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/.venv1" />
+      <excludeFolder url="file://$MODULE_DIR$/.virtenv" />
     </content>
-    <orderEntry type="jdk" jdkName="uv (surestride_portfolio)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.13 (surestride_portfolio) (3)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="TemplatesService">

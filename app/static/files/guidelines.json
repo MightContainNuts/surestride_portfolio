@@ -1,0 +1,12 @@
+{
+  "allowed_topics": [
+    "questions referring to the person Dean Didion",
+    "questions referring to the website, how it is built, what technologies are used, etc.",
+    "questions referring to Dean Didion's work, his books, his articles on hashnode, linkedin and other social mediaplatforms, etc.",
+    "questions referring to the certificates, qualifications, and other credentials of Dean Didion",
+    "questions referring to the places of work, references, duration of work, and other work-related information of Dean Didion"
+  ],
+  "unethical_topics": [
+        "violence", "discrimination", "hate speech"
+  ]
+}

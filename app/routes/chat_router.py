@@ -4,12 +4,21 @@ from fastapi.templating import Jinja2Templates
 from pydantic import BaseModel
 from app.db.models import User
 
+from app.services.chatbot import LangChainHandler
+import markdown
+
+
 chat_routes = APIRouter()
 
 templates = Jinja2Templates(directory="app/templates")
 
 messages = []
 user_handlers = {}
+
+chatbot = LangChainHandler()
+
+
+
 
 
 class Message(BaseModel):
@@ -19,6 +28,8 @@ class Message(BaseModel):
     def __str__(self):
         return f"{self.sender}: {self.message}"
 
+def convert_markdown_to_html(markdown_text: str) -> str:
+    return markdown.markdown(markdown_text)
 
 # Refactor this function to use session-based user check
 async def ensure_authenticated_user(request: Request):
@@ -47,7 +58,12 @@ async def chat(request: Request, current_user: User = Depends(ensure_authenticat
 
 @chat_routes.get("/chat/get_messages", response_class=JSONResponse)
 def get_messages():
-    return {"messages": messages}
+    # Return all messages (including AI and user messages)
+    converted_messages = [
+        {"sender": msg.sender, "message": convert_markdown_to_html(msg.message)}
+        for msg in messages
+    ]
+    return {"messages": converted_messages}
 
 
 @chat_routes.post("/chat/send_message")
@@ -58,9 +74,15 @@ def send_message(user_msg: Message, request: Request):
     print(f"✌🏻 Message received: {user_msg.message}")
     messages.append(user_msg)
 
-    ai_msg = Message(sender="🤖", message="This is a dummy response from the AI. #TODO ")
+    # Simulate AI response using LangChain
+    try:
+        ai_response = chatbot.handle_message(user_msg.message)
+        ai_msg = Message(sender="🤖", message=ai_response)
+    except Exception as e:
+        print(f"Error processing message: {e}")
+        ai_msg = Message(sender="🤖", message="Sorry, I encountered an error processing your message.")
 
     print(f"📩 {ai_msg}")
     messages.append(ai_msg)
 
-    return {"status": "success", "messages": messages}
+    return {"status": "success", "messages": [{"sender": msg.sender, "message": msg.message} for msg in messages]}

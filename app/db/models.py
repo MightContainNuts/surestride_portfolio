@@ -32,13 +32,12 @@ class Message(SQLModel, table=True):
     user: User = Relationship(back_populates="messages")
 
 
-class RAGDoc(SQLModel, table=True):
+class Documents(SQLModel, table=True):
     doc_id: int | None = Field(default=None, primary_key=True)
     title: str
     content: str
     category: str
     size: int
     created_on: datetime = Field(default_factory=datetime.now)
-    embeddings: bytes = Field(default=None, sa_column=Column(LargeBinary, nullable=False))
 
 

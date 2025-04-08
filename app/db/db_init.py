@@ -1,8 +1,11 @@
 import os
 from sqlmodel import SQLModel, create_engine, Session, select, inspect
-from app.db.models import User, RAGDoc
+from app.db.models import User, Documents
 from datetime import datetime
 from dotenv import load_dotenv
+from pathlib import Path
+import os
+import json
 
 
 
@@ -11,9 +14,10 @@ class DBHandler:
         load_dotenv()
         self.engine = None
         self.session = None
-        self.db_url = os.getenv("DATABASE_URL")
-        if not self.db_url:
-            raise ValueError("DATABASE_URL environment variable is not set.")
+        self.db_url = self.get_db_url()
+
+        # Resolve the path using pathlib
+
 
     def __enter__(self):
         self.create_engine()
@@ -30,6 +34,19 @@ class DBHandler:
         if exc_type or exc_val or exc_tb:
             print(f"An error occurred: \n {exc_val} \n {exc_tb} \n {exc_type}")
         print("Database connection closed.")
+
+    def get_db_url(self):
+        """Get the database URL."""
+        db_url = "sqlite:///db.sqlite"
+        # if db_url and db_url.startswith("sqlite:///"):
+        #     base_path = Path(__file__)
+        #     db_path =  base_path / "app" / "db" / "db.sqlite"
+        #     self.db_url = f"sqlite:///{db_path}"
+        #     print(f"Resolved Database URL: {self.db_url}")
+        # else:
+        #     raise ValueError("DATABASE_URL environment variable is not set or invalid.")
+        print(f"Database URL: {db_url}")
+        return db_url
 
     def create_engine(self):
         self.engine = create_engine(self.db_url, echo=True)
@@ -94,7 +111,7 @@ class DBHandler:
         else:
             print("Test user not found in the database.")
 
-    def add_doc_to_RAG_table(self, structured_data,embeddings):
+    def add_new_document(self, structured_data):
         """Add a document to the RAG table."""
         try:
             # Ensure structured_data is not None and has all the required fields
@@ -114,16 +131,15 @@ class DBHandler:
             print(f"Content: {content[:20]}")
 
             # Ensure all required fields are non-empty
-            if not all([title, content, category, size]) and len(embeddings) > 0:
+            if not all([title, content, category, size]):
                 print("One or more required fields are missing in structured_data")
                 return None
 
-            new_doc = RAGDoc(
+            new_doc = Documents(
                 title=title,
                 content=content,
                 category=category,
                 size=size,
-                embeddings=embeddings,
             )
 
             print(f"Created RAGDoc instance: {new_doc}")
@@ -161,36 +177,33 @@ class DBHandler:
         else:
             raise ValueError("Engine not created. Call create_engine first.")
 
-    def fix_embeddings_column(self):
-        """Add the embeddings column to the ragdoc table if it doesn't exist"""
-        try:
-            with self.engine.connect() as conn:
-                from sqlalchemy import text
 
-                # Check if the column exists
-                result = conn.execute(text("PRAGMA table_info(ragdoc)"))
-                columns = [col[1] for col in result.fetchall()]
-                print(f"Current columns in ragdoc table: {columns}")
+    def retrieve_all_documents_from_db(self):
+        """Retrieve all documents from the ragdoc table."""
+        if self.engine:
+            all_docs = self.session.exec(select(Documents.title,
+                                                Documents.content,
+                                                Documents.category)).all()
+            print(f"Documents retrieved from the database. number of documents: {len(all_docs)}")
 
-                if "embeddings" not in columns:
-                    print("Adding embeddings column to ragdoc table...")
-                    conn.execute(text("ALTER TABLE ragdoc ADD COLUMN embeddings BLOB"))
-                    conn.commit()
-                    print("Column added successfully")
-                else:
-                    print("Embeddings column already exists")
+            all_docs_dict = [
+                {"title": doc[0], "content": doc[1], "category": doc[2]} for doc in all_docs
+            ]
+            print(f"Documents retrieved from the database. number of documents: {len(all_docs)}")
+            print(all_docs_dict)
+            return all_docs_dict
 
-                # Verify
-                result = conn.execute(text("PRAGMA table_info(ragdoc)"))
-                updated_columns = [col[1] for col in result.fetchall()]
-                print(f"Updated columns in ragdoc table: {updated_columns}")
 
-                return "embeddings" in updated_columns
-        except Exception as e:
-            print(f"Error fixing schema: {e}")
-            return False
+    def store_documents_in_file(self, documents:list[dict[str:str]])->None:
+        """Store documents in a file."""
+        base_path =  Path(__file__).resolve().parent.parent.parent
+        db_path = base_path / "app" / "static" / "files" / "documents.json"
 
+        with open(db_path, "w", encoding='utf-8') as json_file:
+            json.dump(documents, json_file, ensure_ascii=False,indent = 4)
+        print("Documents stored in documents.json. number of documents: ", len(documents))
 
 if __name__ == "__main__":
     with DBHandler() as db:
-        db.recreate_schema()
+        docs = db.retrieve_all_documents_from_db()
+        db.store_documents_in_file(docs)

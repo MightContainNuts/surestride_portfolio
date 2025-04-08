@@ -1,16 +1,10 @@
 import os
 import pymupdf
-import sqlite3
-import io
 from openai import OpenAI
 from pydantic import BaseModel
-from app.db.db_init import DBHandler
 from dotenv import load_dotenv
-from sentence_transformers import SentenceTransformer
-import numpy as np
-from datetime import datetime
-
-
+from app.services.chatbot import LangChainHandler
+from app.db.db_init import DBHandler
 
 
 class PDFMetadata(BaseModel):
@@ -23,10 +17,9 @@ class PDFMetadata(BaseModel):
 class CreateRAGData:
 
     def __init__(self):
-        sqlite3.register_adapter(np.ndarray, self.convert_embeddings_to_bytes)
 
-        self.to_process_path = "./to_process"
-        self.processed_path = "./processed"
+        self.to_process_path = "app/services/to_process"
+        self.processed_path = "app/services/processed"
         self.text = None
         self.metadata = None
         self.files = self.list_pdf_files_in_dir()
@@ -35,6 +28,7 @@ class CreateRAGData:
         self.client = OpenAI(
             api_key=os.environ.get(api_key),
         )
+        self.lc_handler = LangChainHandler()
 
 
     def list_pdf_files_in_dir(self):
@@ -67,11 +61,9 @@ class CreateRAGData:
         print("Cleaning Text")
         prompt ="""
         Clean up the text and remove any unwanted characters.
-        Check to see if the text makes sense. and if it is a valid document. The documents are pertaining to
-        Dean Didion. 
-        Inject words to make the text more readable. Look for typical convertion problems such as blank
-        spaces, new lines, etc. 
-        Then remove any formatting (line breaks, tabs) to form clean text.
+        Correct the text to make it more readable. All the certificates and information have all been completed by
+        Dean Didion. Correct any incorrectly assigned certificates to the correct person.
+        Remove any formatting (empty lines, tabs) to form clean text for storing effectively in a database.
         Create a metadata dictionary with the following keys:
         title: The title of the document.
         content: The content of the document.
@@ -91,58 +83,26 @@ class CreateRAGData:
         print(f"Title: {response.choices[0].message.parsed.title}")
         print(f"Category: {response.choices[0].message.parsed.category}")
         print(f"Size: {response.choices[0].message.parsed.size}")
-        print(f"Content: {response.choices[0].message.parsed.content[:20]}")
+        print(f"Content: {response.choices[0].message.parsed.content[:20]}...")
         return response.choices[0].message.parsed
 
-    def create_embeddings(self, text:str)->np.ndarray:
+    def save_metadata_to_db(self, metadata:PDFMetadata)->None:
         """
-        Create embeddings for the text.
+        Save the metadata to the database.
         """
-        print("Creating embeddings")
-        model = SentenceTransformer('paraphrase-MiniLM-L6-v2')
-        vector_embeddings = model.encode(text, show_progress_bar=True)
-
-
-        print(f"Embeddings created Size:{len(vector_embeddings)} : Type:{type(vector_embeddings)}")
-        print(f"Embeddings created: {vector_embeddings}")
-
-        return vector_embeddings
-
-    def convert_embeddings_to_bytes(self, embeddings:np.ndarray)->bytes:
-        """
-        Convert the embeddings to bytes.
-        """
-        print("Converting embeddings to bytes")
-        out = io.BytesIO()
-        np.save(out, embeddings)
-        out.seek(0)
-        return out.read()
-
-
-    def save_structured_dict_to_db(self, structured_data:PDFMetadata, embeddings:bytes)->None:
-        """
-        Save the metadata to a file.
-        """
-        print(f"Saving structured data to database: {structured_data.title}")
-
+        print(f"Saving metadata to database")
         with DBHandler() as db:
-            if db.fix_embeddings_column():
-                print(structured_data, embeddings)
-                db.add_doc_to_RAG_table(structured_data, embeddings)
-
-            else:
-                print("Failed to fix database schema, aborting")
-                return
-
-        print(f"Metadata saved to database: {structured_data.title}")
+            db.add_new_document(
+                structured_data=metadata,
+            )
+        print(f"Metadata saved to database")
 
     def move_file_to_processed(self, file_name:str)->None:
         """
         Move the processed file to the processed directory.
         """
-        print(f"Moving {file_name} to processed directory.")
         os.rename(os.path.join(self.to_process_path, file_name), os.path.join(self.processed_path, file_name))
-        print(f"Moved {file_name} to processed directory.")
+        print(f"Moved {file_name} from {self.to_process_path} to {self.processed_path}")
 
 
     def main(self)->None:
@@ -150,15 +110,13 @@ class CreateRAGData:
         Main function to process the PDF files.
         """
         for file in self.files:
+            print("-" * 20)
             print(f"Processing {file}")
             print("-"*20)
             text = self.extract_text_from_pdf(file)
             metadata = self.clean_and_create_metadata(text)
-            embeddings = self.create_embeddings(metadata.content)
-            bytes_embeddings = self.convert_embeddings_to_bytes(embeddings)
-
-            print(f"bytes_embeddings: type:{type(bytes_embeddings)} - length:{len(bytes_embeddings)}")
-            self.save_structured_dict_to_db(metadata, bytes_embeddings)
+            print(f"Metadata: {metadata.title}, {metadata.category}, {metadata.size}")
+            self.save_metadata_to_db(metadata)
             self.move_file_to_processed(file)
             print(f"Processed {file}")
             print("-" * 20)
@@ -167,5 +125,4 @@ class CreateRAGData:
 
 if __name__ == "__main__":
     data = CreateRAGData()
-
     data.main()

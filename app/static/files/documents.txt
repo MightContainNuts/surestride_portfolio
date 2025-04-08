@@ -1,0 +1,393 @@
+{
+    "title": "Python Project for Data Science Certificate",
+    "content": "Dean Didion has successfully completed the online non-credit course authorized by IBM and offered through Coursera. The course was completed by Azim Hirjani, a Cognitive Data Scientist. The identity of this individual and their participation in the course has been confirmed by Coursera. Verify at: https://coursera.org/verify/1S6F5HYC6HCN",
+    "category": "certificate"
+}{
+    "title": "Fundamentals to Become a Machine Learning Engineer",
+    "content": "Learning Path completed by Dean Didion on Sep 14, 2024, at 11:08 AM UTC. Duration: 10 hours 22 minutes. Top skills covered include Machine Learning. Certificate ID: f8ca8786f13fc583ff05e54616fb679b6e86b4ce83505b50ca5241c37c8ef905.",
+    "category": "certificate"
+}{
+    "title": "PMI Agile Certified Practitioner Course Completion",
+    "content": "Course completed by Dean Didion on September 07, 2023, at 09:04 AM UTC. Duration: 1 hour 53 minutes. Top skills covered: Project Management, Agile Project Management. Program: PMI Registered Education Provider. Provider ID: #4101. Activity #: 4101T4TJXX. PDUs/Contact Hours: 1.75. Certificate ID: ac2afe8fb5c6bd1d127b8018ce228e66e9d7f1ffab02594ec00fd15aa6292b2c.",
+    "category": "certificate"
+}{
+    "title": "Certificate of Completion",
+    "content": "Dean Didion has successfully completed the online non-credit course 'Introduction to Artificial Intelligence (AI)' authorized by IBM and offered through Coursera. This certificate is verified by Coursera, confirming the identity of the individual and their participation in the course. You can verify this certificate at: https://coursera.org/verify/IOMRMEG5BCA.",
+    "category": "certificate"
+}{
+    "title": "Data Analysis with Python Completion Certificate",
+    "content": "On February 3, 2025, Dean Didion has successfully completed the online non-credit course \"Data Analysis with Python\" authorized by IBM and offered through Coursera. Joseph Santarcangelo, Senior Data Scientist at IBM, verifies this achievement. For verification, visit: https://coursera.org/verify/3VPTXKHPKFZ1. Coursera has confirmed the identity of this individual and their participation in the course.",
+    "category": "certificate"
+}{
+    "title": "Project Portfolio Management Foundations",
+    "content": "Course completed by Dean Didion on Sep 07, 2023 at 02:17 PM UTC. Duration: 1 hour 15 minutes. Top skills covered: Project Portfolio Management. Program: PMI\u00ae Registered Education Provider. Provider ID: #4101. Activity #: 41013NM533. PDUs/Contact Hours: 1.25. Certificate ID: 38f8fc1449062819f442daf1294ce1927ebe501c89dfa18351668bc46ab23862.",
+    "category": "certificate"
+}{
+    "title": "Agile Challenges Weekly Tips",
+    "content": "Course completed by Dean Didion on Sep 07, 2023, at 04:15 PM UTC. Duration: 2 hours 22 minutes. Top skills covered: Agile Project Management. Certificate ID: a45505d4d1b3d2cea332a83827184719454f590e0b72f49cdbffa798796561b0. Role: Head of Content Strategy, Learning.",
+    "category": "certificate"
+}{
+    "title": "Machine Learning with Python: Foundations",
+    "content": "Course completed by Dean Didion on Sep 11, 2024 at 01:06PM UTC. Duration: 1 hour 54 minutes. Top skills covered: Machine Learning, Python (Programming Language). Certificate ID: 2297a688b31d4b65ab032cd6d3c87b51b18e759fc34a8286d9691e37a22bb2b7. Position: Head of Global Content, Learning.",
+    "category": "certificate"
+}{
+    "title": "Certificate of Completion for Generative AI-Powered Applications",
+    "content": "Dean Didion has successfully completed the online non-credit course 'Building Generative AI-Powered Applications with Python,' authorized by IBM and offered through Coursera. This course was verified by Rav Ahuja, Global Program Director, IBM Skills Network, and Sina Nazeri (Ph.D.), Data Scientist, IBM. Verify at: https://coursera.org/verify/LWNS6IJ8RCYO. Coursera has confirmed the identity of this individual and their participation in the course.",
+    "category": "certificate"
+}{
+    "title": "Machine Learning with Python Certificate",
+    "content": "Dean Didion has successfully completed the Machine Learning with Python online non-credit course authorized by IBM and offered through Coursera. The course was verified by Joseph Santarcangelo, Senior Data Scientist at IBM, and Jeff Grossman, Subject Matter Expert at Skill-Up Technologies. Verify at: https://coursera.org/verify/UMOBLHMPFVE6. Coursera has confirmed the identity of this individual and their participation in the course.",
+    "category": "certificate"
+}{
+    "title": "Certificate of Completion for Introduction to Information Technology and AWS",
+    "content": "On December 15, 2024, Dean Didion has successfully completed the online non-credit course \"Introduction to Information Technology and AWS\" authorized by Amazon Web Services and offered through Coursera. This achievement is verified by Rafael Lopes, Principal Cloud Technologist, and Morgan Willis, Senior Cloud Technologist at AWS Training & Certification. You can verify this certificate at: https://coursera.org/verify/O4NBTFNUDV1E. Coursera has confirmed the identity of this individual and their participation in the course.",
+    "category": "certificate"
+}{
+    "title": "Negotiating with Agility",
+    "content": "Course completed by Dean Didion on September 7, 2023 at 02:44 PM UTC. Duration: 1 hour 7 minutes. Top skills covered include Negotiation. Certificate ID: 1d249d84de994311f7c4b102ec62872384a092346cfdc007aa6d87a7bcf538de. Position: Head of Content Strategy, Learning.",
+    "category": "certificate"
+}{
+    "title": "Certificates and Information Completed by Dean Didion",
+    "content": "All the certificates and information have been completed by Dean Didion. Any incorrectly assigned certificates have been corrected to reflect the appropriate individuals.",
+    "category": "certificate"
+}{
+    "title": "Data Science Methodology Certificate",
+    "content": "On January 13, 2025, Dean Didion successfully completed the Data Science Methodology, an online non-credit course authorized by IBM and offered through Coursera. This certificate verifies that Alex Aklson, Ph.D., Data Scientist, and Polong Lin, Data Scientist at IBM, participated in the course. Verify at: https://coursera.org/verify/K0G64KL4SQPR. Coursera has confirmed the identity of this individual and their participation in the course.",
+    "category": "certificate"
+}{
+    "title": "Cert Prep: Scrum Master",
+    "content": "Course completed by Dean Didion on Sep 07, 2023, at 04:07 PM UTC, lasting 1 hour and 26 minutes. Top skills covered: Scrum. The PMI Registered Education Provider logo is a registered mark of the Project Management Institute, Inc. Program: PMI\u00ae Registered Education Provider, Provider ID: #4101, Activity #: 41018ZJJPW, PDUs/ContactHours: 1.25, Certificate ID: 1454bc489d02ad3e03a4383230eb30f577a772fac74df8c32b8ad33319d0d238. Head of Content Strategy, Learning.",
+    "category": "certificate"
+}{
+    "title": "Introduction to Project Management Certificate",
+    "content": "Dean Didion has successfully completed the online non-credit course 'Introduction to Project Management' authorized by IBM and offered through Coursera. Participants include Bethany Hudnutt, Kasie Kyle, and Rav Ahuja. Verify at: https://coursera.org/verify/MA3HHPHW2SGR. Coursera has confirmed the identity of these individuals and their participation in the course.",
+    "category": "certificate"
+}{
+    "title": "Agile at Work: Planning with Agile User Stories",
+    "content": "Course completed by Dean Didion on September 7, 2023, at 03:24 PM UTC. Duration: 51 minutes. Top skills covered: Agile Methodologies, User Stories. Provider: PMI\u00ae Registered Education Provider (ID: #4101). Activity #: 4101ECBBFV. PDUs/Contact Hours: 1.00. Certificate ID: f970fcd2aadfe67d59b0e4387631905921bde5321a05ec63d1f577f6e728a691.",
+    "category": "certificate"
+}{
+    "title": "Payoneer Personal Reference Letter",
+    "content": "Payoneer Germany GmbH\nPhone: +49 (89) 41 41 447 0\nManaging Director: Scott Galit, Keren\nDeutsche Bank\nGanghoferstr. 39\nFax: +49 (89) 41 41 447 99\nLevy-Shalev, Jonas Maurus\nIBAN: DE20 7007 0010 0033 9382 00\n80339 Munich\nE-Mail: welcome@payoneer.net\nComm. Register Munich HRB 183178\nSWIFT (BIC): DEUTDEMMXXX\nGermany\nWeb: www.payoneer.com\nTax No: DE268847980\n",
+    "category": "certificate"
+}{
+    "title": "Machine Learning with Python Certificate",
+    "content": "Dean Didion has successfully completed the online non-credit course 'Machine Learning with Python' authorized by IBM and offered through Coursera. This course was confirmed by Coursera. The identity of this individual and their participation in the course can be verified at: https://coursera.org/verify/UMOBLHMPFVE6.",
+    "category": "certificate"
+}{
+    "title": "Certificates Issued by Dean Didion",
+    "content": "All the certificates and information have been completed by Dean Didion. All incorrectly assigned certificates have been corrected to the appropriate individuals. This document contains a list of those certificates, ensuring accurate assignment.",
+    "category": "certificate"
+}{
+    "title": "Completion Certificate for Data Science Course",
+    "content": "Dean Didion has successfully completed the online non-credit course 'What is Data Science?' authorized by IBM and offered through Coursera. The course was verified by Rav Ahuja, Global Program Director at Skills Network, and Alex Aklson, Ph.D., Data Scientist. For verification, visit: https://coursera.org/verify/TF5A45NN7C7L. Coursera has confirmed the identity of this individual and their participation in the course.",
+    "category": "certificate"
+}{
+    "title": "Generative AI: Prompt Engineering Basics",
+    "content": "Dean Didion has successfully completed the online non-credit course authorized by IBM and offered through Coursera.\n\nParticipant: Antonio Cangiano, Engineering Manager and AI Specialist, IBM Digital Business Group.\n\nCourse verified by Rav Ahuja, Global Program Director, Skills Network.\n\nVerify at: https://coursera.org/verify/85YS4SW0W0V8\n\nCoursera has confirmed the identity of this individual and their participation in the course.",
+    "category": "certificate"
+}{
+    "title": "DevOps Professional Certificate",
+    "content": "DevOps Professional Certificate by PagerDuty and LinkedIn Learning Path completed by Dean Didion on Aug 05, 2024, at 12:37 PM UTC, taking 7 hours and 13 minutes. Top skills covered include Continuous Integration and Continuous Delivery (CI/CD), DevOps, and Infrastructure as code (IaC). Certificate ID: 065bbcdac8668789c970aa4c44b369ac04a5947640d59df959ebedb4152d2024.",
+    "category": "certificate"
+}{
+    "title": "Certificate of Completion for Fundamentals of AI Agents Using RAG and LangChain",
+    "content": "Dean Didion has successfully completed the online non-credit course Fundamentals of AI Agents Using RAG and LangChain, authorized by IBM and offered through Coursera. Participants include Ashutosh Sagar, Fateme Akbari, Joseph Santarcangelo, and Kang Wang. Verify at: https://coursera.org/verify/1NAUZX94N0PJ. Coursera has confirmed the identity of these individuals and their participation in the course.",
+    "category": "certificate"
+}{
+    "title": "Introduction to HTML, CSS, & JavaScript Completion Certificate",
+    "content": "This is to certify that Michelle Saltoun has successfully completed the online non-credit course \"Introduction to HTML, CSS, & JavaScript\" authorized by IBM and offered through Coursera. Verified at: https://coursera.org/verify/V8S3DOCL6. Coursera has confirmed the identity of this individual and their participation in the course.",
+    "category": "certificate"
+}{
+    "title": "Generative AI Language Modeling with Transformers",
+    "content": "Dean Didion has successfully completed the online non-credit course \"Generative AI Language Modeling with Transformers,\" authorized by IBM and offered through Coursera. Participants include Fateme Akbari, Joseph Santarcangelo, and Adrian Wang. Verify at: https://coursera.org/verify/ADNNN5Q7DMTF. Coursera has confirmed the identity of these individuals and their participation in the course.",
+    "category": "certificate"
+}{
+    "title": "Certificates Completed by Dean Didion",
+    "content": "All the certificates and information have been completed by Dean Didion. Any incorrectly assigned certificates have been corrected to the appropriate individuals.",
+    "category": "certificate"
+}{
+    "title": "Certificate of Completion for Python for Data Science, AI & Development",
+    "content": "Sep 25, 2024 Dean Didion Python for Data Science, AI & Development an online non-credit course authorized by IBM and offered through Coursera has successfully completed Joseph Santarcangelo Senior Data Scientist IBM Verify at: https://coursera.org/verify/D7RX0XR5CP7I Coursera has confirmed the identity of this individual and their participation in the course.",
+    "category": "certificate"
+}{
+    "title": "Generative AI for Business Leaders Certificate",
+    "content": "Course completed by Dean Didion on July 17, 2024, at 08:20 AM UTC. Top skills covered during the course include Business Strategy and Artificial Intelligence for Business. The instructional delivery method was QAS Self Study. Continuing Professional Education (CPE) credits have been granted based on a 50-minute hour, totaling 1.80 credits. LinkedIn is a registered sponsor of continuing professional education with the National Association of State Boards of Accountancy (NASBA) on the National Registry of CPE Sponsors. The field of study is Personal Development under program ID #140940. Complaints regarding registered sponsors can be submitted to the National Registry of CPE Sponsors at www.nasbaregistry.org. The certificate ID for this course is 4e76dcc5231a6d7017fed1a2ca836434c1b448fa392d7cbe77a8224883dd7678.",
+    "category": "certificate"
+}{
+    "title": "Agile Product Owner Role: Foundations",
+    "content": "Course completed by Dean Didion on September 07, 2023, at 01:53 PM UTC. Duration: 1 hour 7 minutes. Top skills covered include Agile Project Management. Program: PMI\u00ae Registered Education Provider. Provider ID: #4101. Activity #: 4101U2ZV1X. PDUs/Contact Hours: 1.00. Certificate ID: f4c71742c39d030d953aaf6b5035b62437365776d3a62d2788219869bce73c93. Head of Content Strategy, Learning.",
+    "category": "certificate"
+}{
+    "title": "What is Copilot? Get Started with Microsoft's Everyday AI Companion",
+    "content": "Course completed by Dean Didion on Aug 19, 2024 at 12:15 PM UTC. Duration: 15 minutes. Top skills covered include Artificial Intelligence for Business and Microsoft Copilot. Certificate ID: 60589d997ba84a052ce2fad4c6784c91ea191b5feba3f1fa866c8c5475c0fd0b.",
+    "category": "certificate"
+}{
+    "title": "Certificate of Completion for Introduction to DevOps",
+    "content": "On October 21, 2024, Dean Didion has successfully completed the \"Introduction to DevOps\", an online non-credit course authorized by IBM and offered through Coursera. This confirms that John J. Rofrano, Senior Technical Staff Member and DevOps Champion at IBM T.J. Watson Research Center, has participated in the course. Verify at: https://coursera.org/verify/ZY1Z7VPR9Q27. Coursera has confirmed the identity of this individual and their participation in the course.",
+    "category": "certificate"
+}{
+    "title": "Python for Data Science, AI & Development Certificate",
+    "content": "Dean Didion has successfully completed the Python for Data Science, AI & Development, an online non-credit course authorized by IBM and offered through Coursera. This certificate is awarded to Joseph Santarcangelo, Senior Data Scientist at IBM. Verify at: https://coursera.org/verify/D7RX0XR5CP7I. Coursera has confirmed the identity of this individual and their participation in the course.",
+    "category": "certificate"
+}{
+    "title": "Introduction to Agile Development and Scrum Certificate",
+    "content": "Dean Didion has successfully completed the online non-credit course 'Introduction to Agile Development and Scrum' authorized by IBM and offered through Coursera. This certificate is awarded to John J. Rofrano, Senior Technical Staff Member and DevOps Champion at IBM T.J. Watson Research Center. Verify at: https://coursera.org/verify/NDB0YXVFTCT6. Coursera has confirmed the identity of this individual and their participation in the course.",
+    "category": "certificate"
+}{
+    "title": "DevOps Capstone Project Completion Certificate",
+    "content": "Dec 13, 2024\nDean Didion \nDevOps Capstone Project, an online non-credit course authorized by IBM and offered through Coursera, has successfully been completed by John J. Rofrano, Senior Technical Staff Member and DevOps Champion at IBM T.J. Watson Research Center, and Upkar Lidder, Senior Software Engineer at IBM. Verify at: https://coursera.org/verify/E2CZJUJSSVM2. Coursera has confirmed the identity of this individual and their participation in the course.",
+    "category": "certificate"
+}{
+    "title": "Certificates Completion Information",
+    "content": "All certificates and information have been completed by Dean Didion. Any incorrectly assigned certificates have been corrected to reflect the correct person.",
+    "category": "certificate"
+}{
+    "title": "Certificate of Completion",
+    "content": "Feb 16, 2025 Dean Didion Generative AI: Elevate Your Data Science Career an online non-credit course authorized by IBM and offered through Coursera has successfully completed Abhishek Gagneja Dr. Pooja Rav Ahuja Verify at: https://coursera.org/verify/IPXRPVB9EBK1 Coursera has confirmed the identity of this individual and their participation in the course.",
+    "category": "certificate"
+}{
+    "title": "IBM Applied DevOps Engineering Certificate",
+    "content": "Dean Didion has successfully completed the online, non-credit Professional Certificate in IBM Applied DevOps Engineering. In this Professional Certificate, learners mastered DevOps practices, Agile methodologies, and Cloud Native Technologies. The holders of this certificate completed numerous hands-on labs and projects to gain practical DevOps experience. They utilized Scrum and wrote and executed agile user stories using a Kanban board; built and deployed Python microservices using Docker containers, Kubernetes, OpenShift, and Serverless; developed and executed unit tests with test-driven development (TDD) methods; applied the process of Continuous Integration/Continuous Development (CI/CD) with GitHub Actions and Tekton; added monitoring, logging, and observability; and ensured security. The completers of the Professional Certificate are now ready to take on Software Engineering challenges using a DevOps mindset.\n\nThe online specialization named in this certificate may draw on material from courses taught on-campus, but the included courses are not equivalent to on-campus courses. Participation in this online specialization does not constitute enrollment at this university. This certificate does not confer a University grade, course credit, or degree, and it does not verify the identity of the learner.\n\nVerify this certificate at: https://coursera.org/verify/professional-cert/YG2HCI8SQXHH",
+    "category": "certificate"
+}{
+    "title": "Agile Software Development: Scrum for Developers",
+    "content": "Course completed by Dean Didion on August 21, 2023, at 02:26 PM UTC. Duration: 1 hour 15 minutes. Top skills covered include Agile Software Development and Scrum. \n\nThe PMI Registered Education Provider logo is a registered mark of the Project Management Institute, Inc. \nProgram: PMI\u00ae Registered Education Provider \nProvider ID: #4101 \nActivity #: 4101PXZTX2 \nPDUs/Contact Hours: 1.25 \nCertificate ID: 02ad587317998eeae95a3ac43b414ebb477797ed1580af0eb7da94d3e2605654.",
+    "category": "certificate"
+}{
+    "title": "Certificate of Completion: Continuous Integration and Continuous Delivery",
+    "content": "Dean Didion\nContinuous Integration and Continuous Delivery (CI/CD) is an online non-credit course authorized by IBM and offered through Coursera. This certifies that John J. Rofrano has successfully completed the course. John J. Rofrano is recognized as a Senior Technical Staff Member and DevOps Champion at IBM T.J. Watson Research Center. Upkar Lidder, a Senior Software Engineer at IBM, has also contributed. Verify at: https://coursera.org/verify/Q3OKSTNFV8OA. Coursera has confirmed the identity of this individual and their participation in the course.",
+    "category": "certificate"
+}{
+    "title": "Six Sigma: White Belt Certificate",
+    "content": "Course completed by Dean Didion on August 14, 2024 at 02:09 PM UTC. Duration: 56 minutes. Top skills covered: Six Sigma. Certificate ID: db90c50248a64c50f3b64fa3ec5dba106d5dfb10b625b94949fe0765ad650f50.",
+    "category": "certificate"
+}{
+    "title": "Career Essentials in GitHub",
+    "content": "Professional Certificate\nLearning Path completed by Dean Didion on July 28, 2024, at 11:19 AM UTC. Duration: 4 hours 18 minutes.\nTop skills covered: GitHub.\nCertificate ID: 8d006683b191f45657f76aee0e83d991c8216e3ea214511e6bcf9c6690fb5375.\nHead of Global Content, Learning.",
+    "category": "certificate"
+}{
+    "title": "AWS Cloud Technical Essentials Certificate",
+    "content": "Dean Didion has successfully completed the AWS Cloud Technical Essentials, an online non-credit course authorized by Amazon Web Services and offered through Coursera. This course has been verified for Morgan Willis and Seph Robinson, both Senior Cloud Technologists at AWS Training and Certification. Verify at: https://coursera.org/verify/J92IY44WO7YE. Coursera has confirmed the identity of this individual and their participation in the course.",
+    "category": "certificate"
+}{
+    "title": "Certificate of Completion for Gen AI Foundational Models for NLP & Language Understanding",
+    "content": "On March 3, 2025, Dean Didion successfully completed the online non-credit course 'Gen AI Foundational Models for NLP & Language Understanding,' authorized by IBM and offered through Coursera. Joseph Santarcangelo, Senior Data Scientist at IBM, verifies this completion. For verification, visit: https://coursera.org/verify/YG559JQQ80PM. Coursera has confirmed the identity of this individual and their participation in the course.",
+    "category": "certificate"
+}{
+    "title": "Certificate of Completion",
+    "content": "On September 25, 2024, Dean Didion successfully completed the online non-credit course \"Python for Data Science, AI & Development,\" authorized by IBM and offered through Coursera. Joseph Santarcangelo, Senior Data Scientist at IBM, verifies this achievement. Verify at: https://coursera.org/verify/D7RX0XR5CP7I. Coursera has confirmed the identity of this individual and their participation in the course.",
+    "category": "certificate"
+}{
+    "title": "Atlassian Agile Project Management Professional Certificate",
+    "content": "Atlassian Agile Project Management Professional Certificate\nLearning Path completed by Dean Didion on Jul 26, 2024 at 07:00 PM UTC, taking 7 hours and 16 minutes. \nTop skills covered include Jira, Agile Methodologies, and Agile Project Management. \nCertificate ID: 58871b65e5f6fbd1ad7ab025a097727658a4346ede2250fc9c70965136ff918e. \nPosition: Head of Global Content, Learning.",
+    "category": "certificate"
+}{
+    "title": "Personal Reference Letter for Dean Didion",
+    "content": "Payoneer Germany GmbH\nPhone: +49 (89) 41 41 447 0\nManaging Director: Scott Galit, Keren\nDeutsche Bank\nGanghoferstr. 39\nFax: +49 (89) 41 41 447 99\nLevy-Shalev, Jonas Maurus\nIBAN: DE20 7007 0010 0033 9382 00\n80339 Munich\nE-Mail: welcome@payoneer.net\nComm. Register Munich HRB 183178\nSWIFT (BIC): DEUTDEMMXXX\nGermany\nWeb: www.payoneer.com\nTax No: DE268847980\n\nPersonal Reference Letter\n\nMunich, 25 August 2023\n\nThis is to certify that Dean Didion has been employed as a Senior Engineering Manager for the Merchant Management and Merchant Onboarding team at Payoneer for a period of two and a half years. During this tenure, Dean Didion has made significant contributions to the organization and demonstrated exemplary skills and expertise in various aspects of the role.\n\nAs the Senior Engineering Manager, Dean Didion led a team consisting of 5 Backend, 3 Frontend, 3 delivery/quality assurance engineers, and 2 designers. The team was responsible for the development and maintenance of critical portals, including the Merchant Orchestration Portal, New Checkout Portal, and Stand-alone Merchant Portal for Checkout.\n\nUnder Dean Didion's leadership, the team handled a wide range of responsibilities, encompassing design, user interface (UI), user experience (UX), and core services for the entire organization. This included the development of essential services such as authentication and authorization, onboarding APIs, and merchant configuration APIs.\n\nAs the first engineering manager hired for this role, Dean Didion played a vital role in building and shaping the team from its inception. This involved actively participating in the recruitment and onboarding process and establishing a solid infrastructure to support the team's operations, as well as making a significant contribution in onboarding other Engineering Managers as they were hired into the organization. Dean Didion's efforts were instrumental in creating a strong foundation and setting the stage for subsequent engineers to thrive.\n\nThroughout the tenure, Dean Didion demonstrated exceptional managerial skills, effective communication, and a dedication to mentoring team members. By leveraging extensive knowledge of different Agile frameworks, Dean Didion introduced and implemented numerous processes that significantly enhanced the team's performance. These processes were so successful that they were subsequently adopted by other teams within the organization.\n\nFurthermore, Dean Didion organized workshops at both the team and organizational levels, fostering a culture of continuous learning and knowledge sharing. These initiatives played a crucial role in increasing the collective knowledge base of the team and breaking down silos between different departments.\n\nDean Didion's work consistently exhibited a high level of quality, earning the admiration and recognition of both peers and direct reports. Their commitment to excellence, leadership abilities, and expertise in the field of engineering management have been invaluable to the success of the organization.\n\nTherefore, it is with great pleasure that we acknowledge Dean Didion's contributions and recommend them as an outstanding Senior Engineering Manager with a proven track record of achieving exceptional results. We extend our sincere appreciation for their dedication and significant impact during their tenure at Payoneer.\n\nMunich, 25 August 2023\n\n________________________________________________\n\nNadiia Chornokur\nHR Business Partner",
+    "category": "reference letter"
+}{
+    "title": "Certificate of Completion for Developing AI Applications with Python and Flask",
+    "content": "Dean Didion has successfully completed the online non-credit course 'Developing AI Applications with Python and Flask', authorized by IBM and offered through Coursera. This course has confirmed the identity of the individual and their participation in the course. Verify at: https://coursera.org/verify/5GQQ6NA08MTI",
+    "category": "certificate"
+}{
+    "title": "Agile Product Owner Role: Techniques Certificate",
+    "content": "Agile Product Owner Role: Techniques - Course completed by Dean Didion on Sep 07, 2023, at 01:59 PM UTC. Duration: 1 hour 24 minutes. Top skills covered: Agile Methodologies. The PMI Registered Education Provider logo is a registered mark of the Project Management Institute, Inc. Program: PMI\u00ae Registered Education Provider. Provider ID: #4101. Activity #: 410102O5PR. PDUs/Contact Hours: 1.25. Certificate ID: 47130b82b004df8055935ae26fdb2de001c5b08394bf3468bf40172ec091466a. Head of Content Strategy, Learning.",
+    "category": "certificate"
+}{
+    "title": "Enterprise Agile: Changing Your Culture",
+    "content": "Course completed by Dean Didion on Sep 07, 2023 at 02:07PM UTC for a duration of 1 hour and 22 minutes. Top skills covered include Agile Methodologies and Organizational Culture. Program: PMI\u00ae Registered Education Provider. Provider ID: #4101. Activity #: 4101HVZ7KC. PDUs/Contact Hours: 1.25. Certificate ID: 5464cf0a31d49b58c863277a10ff302fc8fa653f6770196e13dbe943f5dbd07c.",
+    "category": "certificate"
+}{
+    "title": "Generative AI: Introduction and Applications Certificate",
+    "content": "Dean Didion has successfully completed the online non-credit course \"Generative AI: Introduction and Applications\" authorized by IBM and offered through Coursera. This document is verified by Rav Ahuja, Global Program Director of Skills Network. You can verify this certificate at: https://coursera.org/verify/X9LHATMGBCGO. Coursera has confirmed the identity of this individual and their participation in the course.",
+    "category": "certificate"
+}{
+    "title": "IBM Data Science Professional Certificate",
+    "content": "Rav Ahuja, Program Director at IBM Skills Network has successfully completed the online, non-credit Professional Certificate in IBM Data Science. In this Professional Certificate, learners developed and honed hands-on skills in Data Science and Machine Learning. Learners started with an orientation of Data Science and its methodology, became familiar and used a variety of data science tools, learned Python and SQL, performed Data Visualization and Analysis, and created Machine Learning models. In the process, they completed several labs and assignments on the cloud, including a Capstone Project at the end to apply and demonstrate their knowledge and skills. The online specialization named in this certificate may draw on material from courses taught on-campus, but the included courses are not equivalent to on-campus courses. Participation in this online specialization does not constitute enrollment at this university. This certificate does not confer a University grade, course credit or degree, and it does not verify the identity of the learner. Verify this certificate at: https://coursera.org/verify/professional-cert/XBUKLSUI8F82",
+    "category": "certificate"
+}{
+    "title": "Certificates Completion Confirmation",
+    "content": "All the certificates and information have been completed by Dean Didion. Any incorrectly assigned certificates have been corrected to the appropriate individuals. The information is now accurately updated and ready for distribution.",
+    "category": "certificate"
+}{
+    "title": "Certificate of Completion for Introduction to Software Engineering",
+    "content": "Dean Didion has successfully completed the online non-credit course \"Introduction to Software Engineering\" authorized by IBM and offered through Coursera. The completion of this course has been verified by Coursera, confirming the identity of Dean Didion and their participation in the course. Verify at: https://coursera.org/verify/U8XL0R8PY8VP",
+    "category": "certificate"
+}{
+    "title": "Dean Didion CV",
+    "content": "CONTACT\n+49 0151 1799 6699\ndean.didion@icloud.com\nPortfolio\nGitHub\nLinkedIn\n\nTECHNICAL SKILLS\nProject Management\nAgile Leadership & Methodologies\nAI Engineering\nLLMs\nAI Ethical Officer\nData Science\nCI/CD\nSDLC\n\nDEAN DIDION\nIT MANAGER / ENGINEERING MANAGER\n\nWORK EXPERIENCE\nPROFILE\nA seasoned IT Project and Engineering Manager with a robust focus on AI technologies like LangChain, LangGraph, Machine Learning, and Data Science. Expertise in leading cross-functional teams, catalyzing AI-centric innovation, and refining agile methodologies (Scrum, Kanban, Hybrid). Proficient in recruitment, onboarding, and cultivating a culture of continuous improvement, delivering high-impact solutions and managing global collaborations.\n\nJan 2024 - Present\nRemote\nSureStride\nFounder & CEO\nFounded and led a successful Agile coaching enterprise, implementing customized methodologies that increased team productivity by 30% on average. Designed and delivered targeted training programs, streamlined processes, and introduced continuous improvement frameworks, leading to a 25% reduction in project delivery times and improved cross-functional collaboration. Advised engineering teams and leadership on agile best practices, fostering a culture of adaptability and iterative development that enhanced stakeholder engagement and product quality.\n\nAug 2023 - May 2024\nEdinburgh/Singapore\nLifeScience Technology LTD\nCTO (Freelance)\nDefined and led the technical strategy for an early-stage startup, building and managing high-performing distributed engineering teams across Singapore and the UK. Directed end-to-end technical hiring and mentorship programs, establishing a scalable engineering foundation and fostering a performance-driven team culture.\n\nMay 2021 - Oct 2023\nMunich, Germany\nPayoneer (Nasdaq: PAYO)\nSr. Engineering Manager\nSpearheaded multiple greenfield projects including Checkout and the OKR program, which was successfully adopted across all teams in Germany, the UK, and Israel, driving alignment and strategic execution. Led monthly Agile transformation workshops and mentored three cross-functional engineering teams, enhancing team effectiveness and interdepartmental collaboration, resulting in improved delivery speed and stakeholder engagement.\n\nMay 2019 - Nov 2020\nT\u00f6ging, Germany\nViscoTec GmbH\nHead of Customer Support\nEstablished a customer support division from the ground up, optimizing operations and increasing customer satisfaction by 35% through improved processes and service efficiency.\n\nApr 2017 - May 2019\nSulgen, Switzerland\nBelimed Lifescience GmbH\nHead of Global Installations & Qualifications\nLed the development of a global service network for a top pharmaceutical firm, optimizing procedures and cutting installation time by 20%, driving a 70% increase in client satisfaction and enhancing service efficiency and customer experience.\n\nSep 2000 - Mar 2016\nCanada, Australia, USA, Germany\nGiesecke & Devrient GmbH\nIT Project Manager / Software Engineer\nDirected global EMV card processing strategies, enhancing operational efficiency and security measures, while fostering the development of high-performing teams.\n\nSOFT SKILLS\nProblem solving, Critical thinking, Communication, Project Management, Servant Leadership\n\nCERTIFICATIONS\nIBM IT Project Manager\nPMI Project Management\nIHK Project Manager\nISO 9001 QM-A (Auditor)\nSix Sigma Blackbelt\nIBM AI Developer\nIBM Data Scientist\nIBM DevOps Engineering\nIBM Gen AI with LLMs\n\nEDUCATION\nOct 2024 - Dec 2025\nMasterschool\nSoftware Engineering (AI and Backend Specializations)\nSuccessfully completed a 14-month training program, specializing in AI and Backend Engineering, focusing on Python, Web Applications, OOP, Databases, SQL, Linux, Flask, HTML, CSS, Docker, and Cloud technologies.\n\nLANGUAGES\nEnglish - Native\nGerman - Native\nEsperanto - B2\n\nApr 1998 - Sep 2006\nLeeds University UK\nBachelor of Science (B.Sc.) - Mechanical Engineering\n\nSep 1994 - Jul 1996\nDr. Blindow Schule\nBachelor Professional Technik (DQR 6)\nGerman High School Diploma (Abitur)\n\nSep 1994 - Jul 1996\nSchool of Electrical, Mechanical Engineers\nElectrical & Mechanical Engineering, B-Tec\n\nPROJECTS\nPraxisManager (Mar 2025)\nTools: Python, TKinter, MySQL\nDeveloped a business management application to replace existing legacy software for a Heilpraktiker practice, streamlining appointment scheduling, patient records, and financial tracking.\n\nThriveWell (Jan 2025)\nGitHub\nTools: FastAPI, LangGraph, PostgreSQL, Meta API\nDeveloped an AI-driven chatbot to provide personalized mental health support, coping strategies, and daily motivation using LangGraph.\n\nthe-companion (Jan 2025)\nGitHub\nTools: Flask, WhatsApp API, AI, Natural Language Processing\nDeveloped an AI-powered WhatsApp chatbot to assist seniors in independent living and health maintenance.\n\nVOLUNTEERING\nM\u00fccheln High School\nVolunteer English and Python Programming Instructor\nDesigned and delivered volunteer Python programming and English workshops for high school students, introducing core concepts through hands-on projects and tutoring sessions.",
+    "category": "CV"
+}{
+    "title": "Becoming an Agile Coach",
+    "content": "Course completed by Dean Didion on September 7, 2023, at 07:43 AM UTC. Duration: 46 minutes. \nTop skills covered: Agile Coaching. \nProgram: PMI\u00ae Registered Education Provider \nProvider ID: #4101 \nActivity #: 4101TJP1WO \nPDUs/Contact Hours: 0.75 \nCertificate ID: 778bcb21eba26ba57e8a7dd8f9b6e73b2c88268a25917d37543952561b66b82a.",
+    "category": "certificate"
+}{
+    "title": "Digital Transformation Certificate",
+    "content": "Digital Transformation course completed by Dean Didion on September 7, 2023, at 02:03 PM UTC, with a duration of 47 minutes. The certificate ID is 2c2d7204dd9afa8186c9c34c832825379317f6dae45dc4a5ca72e815b1a1596b. The Head of Content Strategy for Learning oversaw the course.",
+    "category": "certificate"
+}{
+    "title": "Application Security for Developers and DevOps Professionals",
+    "content": "Dean Didion has successfully completed the online non-credit course authorized by IBM and offered through Coursera. This certification was issued to John J. Rofrano, Senior Technical Staff Member and DevOps Champion at IBM T.J. Watson Research Center. Coursera has confirmed the identity of this individual and their participation in the course. Verify at: https://coursera.org/verify/YDI5K5YUS6IX",
+    "category": "certificate"
+}{
+    "title": "Certificates Completion",
+    "content": "All the certificates and information have been completed by Dean Didion. The incorrectly assigned certificates have been corrected to the appropriate individuals.",
+    "category": "certificate"
+}{
+    "title": "Adaptive Project Leadership Certificate",
+    "content": "Course completed by Dean Didion on September 7, 2023, at 08:20 AM UTC. Duration: 47 minutes. Top skills covered include Project Leadership. The course is provided by a PMI Registered Education Provider (Provider ID: #4101, Activity #: 4101WEFZ3B) and offers 0.75 PDUs/Contact Hours. Certificate ID: eae4e8aa6622ee014dbd1500562e0b4a6554ef288ce3e9cb9bd3d5762c548914. Dean Didion serves as the Head of Content Strategy, Learning.",
+    "category": "certificate"
+}{
+    "title": "Certificates Completed by Dean Didion",
+    "content": "All the certificates and information in this document have been completed by Dean Didion. Any incorrectly assigned certificates have been corrected to reflect the proper individual.",
+    "category": "certificate"
+}{
+    "title": "Programming with Python Professional Certificate",
+    "content": "OpenEDG Python Institute: Programming with Python Professional Certificate Learning Path completed by Dean Didion on Sep 09, 2024, at 03:34 PM UTC. Duration: 7 hours 15 minutes. Top skills covered: Python (Programming Language), Object-Oriented Programming (OOP). Certificate ID: d71df37f572127af6edffdbc4e3ee1bdd43f13c87e88ab1aff5733cb010bab56. Head of Global Content, Learning.",
+    "category": "certificate"
+}{
+    "title": "Enterprise Agile: Growing Scrum Certificate",
+    "content": "Course completed by Dean Didion on September 7, 2023, at 02:31 PM UTC. Duration: 58 minutes. Top skills covered include Agile Methodologies and Scrum. The PMI Registered Education Provider logo is a registered mark of the Project Management Institute, Inc. Program: PMI\u00ae Registered Education Provider. Provider ID: #4101. Activity #: 4101QSL7HC. PDUs/Contact Hours: 1.00. Certificate ID: 0ca192aff2eea92bf7505bdb58c8767e4bdc5c1ea7abfaf2051c56a022e5cf32. Dean Didion is the Head of Content Strategy, Learning.",
+    "category": "certificate"
+}{
+    "title": "Scrum: The Basics",
+    "content": "Course completed by Dean Didion on Sep 07, 2023, at 03:33 PM UTC. Duration: 1 hour. Top skills covered: Scrum. The PMI Registered Education Provider logo is a registered mark of the Project Management Institute, Inc. Program: PMI\u00ae Registered Education Provider. Provider ID: #4101. Activity #: 4101PJXRFN. PDUs/Contact Hours: 1.00. Certificate ID: da9bbb3ec63a9317cc526e9b6dd924d1a2d9ba1ffda379ba671835771f55d6ad.",
+    "category": "certificate"
+}{
+    "title": "CV of Dean Didion",
+    "content": "CONTACT\n+49 0151 1799 6699\ndean.didion@icloud.com\nPortfolio\nGitHub\nLinkedIn\nTECHNICAL SKILLS\nProject Management\nAgile Leadership & Methodologies\nAI Engineering\nLLMs\nAI Ethics Officer\nData Science\nCI/CD\nSDLC\nDean Didion\nIT MANAGER / ENGINEERING MANAGER\nPROFESSIONAL EXPERIENCE\nPROFILE\nExperienced IT Project and Engineering Manager with a strong focus on AI technologies such as LangChain, LangGraph, Machine Learning, and Data Science. My expertise lies in leading interdisciplinary teams, fostering AI-driven innovation, and optimizing agile methods (Scrum, Kanban, Hybrid). Proficient in recruitment, onboarding, and establishing a culture of continuous improvement, I drive impactful solutions and coordinate global collaborations.\nJan 2024 - Remote\nSureStride\nFounder & CEO\nFounded and led a successful Agile coaching company, increasing productivity by an average of 30%.\nDeveloped training programs, optimized processes, and improved cross-functional collaboration.\nCoached teams and leaders in agile methodologies.\nAug 2023 - May 2024\nEdinburgh / Singapore\nLifeScience Technology LTD\nCTO (Freelance)\nDeveloped technical strategy for a startup and led distributed teams in Singapore & the UK.\nResponsible for technical hiring & mentoring, ensuring scalable growth & performance-oriented culture.\nMay 2021 - Oct 2023\nMunich, DE\nPayoneer\nSr. Engineering Manager\nInitiated multiple greenfield projects, including Checkout & the OKR program, adopted in Germany, the UK & Israel.\nConducted monthly Agile workshops & coached 3 cross-functional engineering teams, improving effectiveness & collaboration.\nMay 2019 - Nov 2020\nT\u00f6ging, DE\nViscoTec GmbH\nHead of Customer Support\nEstablished a new customer support department, optimized processes & increased customer satisfaction by 35%.\nApr 2017 - May 2019\nSulgen, CH\nBelimed Lifescience GmbH\nHead of Global Installations & Qualifications\nBuilt global service network for a leading pharmaceutical company, optimized processes & reduced installation time by 20% \u2013 increased customer satisfaction by 70%.\nSep 2000 - Mar 2016\nCanada, Australia, USA, DE\nGiesecke & Devrient GmbH\nIT Project Manager / Software Engineer\nLed global EMV card processing strategies, improved operational efficiency & security measures, and built high-performing teams.\nSOFT SKILLS\nProblem Solving, Critical Thinking, Communication, Project Management, Servant Leadership\nCERTIFICATIONS\nIBM IT Project Manager\nPMI Project Management\nIHK Project Manager\nISO 9001 QM-A (Auditor)\nSix Sigma Blackbelt\nIBM AI Developer\nIBM Data Scientist\nIBM DevOps Engineering\nIBM Gen AI with LLMs\nEDUCATION\nOct 2024 - Dec 2025\nMasterschool\nSoftware Engineering (AI and Backend Specializations)\nSuccessfully completed the rigorous 14-month Masterschool training led by industry experts. Specialization in AI and Backend Engineering focusing on Python, web applications, OOP, databases, SQL, Linux, Flask, HTML, CSS, Docker, and cloud technologies.\nLANGUAGES\nEnglish - Native\nGerman - Native\nEsperanto - B2\nApr 1998 - Sep 2006\nLeeds University UK\nBachelor of Science (B.Sc.) - Mechanical Engineering (DQR 6)\nSep 1994 - Jul 1996\nDr. Blindow Schule\nBachelor Profesional - Technik (DQR 6)\nGerman High School Diploma (Abitur)\nSep 1994 - Jul 1996\nSchool of Electrical, Mechanical Engineers\nElectrical & Mechanical Engineering, B-Tec\nPROJECTS\nPraxisManager\nMar 2025\n(Private Repo: Walkthrough on request)\nTools: Python, TKinter, MySQL\nDesigned and developed a business management application to replace existing legacy software for a practitioner practice. Optimized appointment scheduling, patient records, and financial management to increase practice operational efficiency. Successfully implemented and tailored the solution to meet the practice's needs, ensuring both user-friendliness and compliance with professional requirements.\nThriveWell\nJan 2025\nGitHub\nTools: FastAPI, LangGraph, PostgreSQL, Meta API\nDeveloped an AI-driven chatbot to provide personalized support for mental health, coping strategies, and daily motivation utilizing LangGraph. Delivered a solution that adapts to individual needs, providing tailored insights and guidance, enhancing user engagement through natural language processing and contextual understanding.\nthe-companion\nJan 2025\nGitHub\nTools: Flask, WhatsApp API, AI, Natural Language Processing\nDeveloped a user-friendly, AI-driven WhatsApp chatbot to support seniors in independent living and maintaining their health. Simplified daily tasks, provided medication reminders, facilitated communication, and supplied key health information through natural WhatsApp conversations. The chatbot serves as a virtual companion, offering assistance akin to a conversation with a family member. Application with the Foundation for Citizen Engagement and Volunteering is currently pending.\nVOLUNTEERING\nM\u00fccheln Highschool\nVolunteer English and Python Programming Teacher:\nDeveloped and led volunteer workshops on Python programming and English for high school students, conveying fundamental concepts through hands-on projects and individualized instruction.",
+    "category": "CV"
+}{
+    "title": "Certificates Completion by Dean Didion",
+    "content": "All certificates and information have been completed by Dean Didion. The following corrections must be made for incorrectly assigned certificates to ensure all documents are accurately attributed to their rightful recipients.",
+    "category": "certificate"
+}{
+    "title": "Certificates Information",
+    "content": "All the certificates and information have been completed by Dean Didion. Any incorrectly assigned certificates have been corrected to reflect the accurate recipient.",
+    "category": "certificate"
+}{
+    "title": "Certificate of Completion",
+    "content": "All the certificates and information have been completed by Dean Didion. Certificates that were incorrectly assigned have now been corrected to reflect the accurate recipients.",
+    "category": "certificate"
+}{
+    "title": "AI Challenges and Opportunities for Leadership",
+    "content": "Course completed by Dean Didion on Jul 19, 2024, at 09:50 AM UTC. Top skills covered include Organizational Leadership and Artificial Intelligence for Business. This course is provided by a PMI\u00ae Registered Education Provider (Provider ID: #4101, Activity #: 4101GTP0M6), offering 0.50 PDUs/contact hours. Certificate ID: 1a224566f5c3aade3c87611f4ca3f7e99ec09622c2fd5cb3801038317c066703. The PMI Registered Education Provider logo is a registered mark of the Project Management Institute, Inc. Dean Didion is the Head of Global Content, Learning.",
+    "category": "certificate"
+}{
+    "title": "Agile Product Owner Role: Foundations",
+    "content": "Course completed by Dean Didion on Sep 07, 2023, at 01:53 PM UTC. Duration: 1 hour 7 minutes. Top skills covered include Agile Project Management. This course is offered by the PMI\u00ae Registered Education Provider, Provider ID: #4101, Activity #: 4101U2ZV1X. It grants 1.00 PDUs/Contact Hours. Certificate ID: f4c71742c39d030d953aaf6b5035b62437365776d3a62d2788219869bce73c93. Dean Didion is the Head of Content Strategy, Learning.",
+    "category": "certificate"
+}{
+    "title": "Scrum: Advanced",
+    "content": "Course completed by Dean Didion on Sep 07, 2023, at 02:43 PM UTC for a duration of 1 hour 2 minutes. Top skills covered include Scrum. The course is registered under the PMI Registered Education Provider program. Provider ID: #4101. Activity #: 410185S1JT. PDUs/ContactHours: 1.00. Certificate ID: a751ed4d47ac809ed46593bd48ef6f6802f75841fe0a9bd6c9aa986b1c1acb49. Head of Content Strategy, Learning.",
+    "category": "certificate"
+}{
+    "title": "Introduction to Test and Behavior Driven Development Certificate",
+    "content": "Dean Didion has successfully completed the online non-credit course \"Introduction to Test and Behavior Driven Development\" authorized by IBM and offered through Coursera. The certificate is for John J. Rofrano, Senior Technical Staff Member and DevOps Champion at IBM T.J. Watson Research Center. Verify at: https://coursera.org/verify/PQXNHD366A8X. Coursera has confirmed the identity of this individual and their participation in the course.",
+    "category": "certificate"
+}{
+    "title": "Certificates Issued by Dean Didion",
+    "content": "All the certificates and information have been completed by Dean Didion. Any incorrectly assigned certificates have been corrected to reflect the accurate recipients.",
+    "category": "certificate"
+}{
+    "title": "AI Ethics in Business Certificate",
+    "content": "Dean Didion has successfully completed the online non-credit course \"AI Ethics in Business\" authorized by Rutgers, The State University of New Jersey, and offered through Coursera. Verify at: https://coursera.org/verify/NDWN97VLH4QK. Coursera has confirmed the identity of this individual and their participation in the course.",
+    "category": "certificate"
+}{
+    "title": "Certificates Completion",
+    "content": "All certificates and information have been completed by Dean Didion. Any incorrectly assigned certificates have been corrected to the appropriate individuals.",
+    "category": "certificate"
+}{
+    "title": "Certificate of Completion for Cert Prep: Scrum Master",
+    "content": "Course completed by Dean Didion on September 7, 2023, at 04:07 PM UTC. Duration: 1 hour 26 minutes. Top skills covered: Scrum. Program: PMI\u00ae Registered Education Provider, Provider ID: #4101, Activity #: 41018ZJJPW, PDUs/Contact Hours: 1.25. Certificate ID: 1454bc489d02ad3e03a4383230eb30f577a772fac74df8c32b8ad33319d0d238.",
+    "category": "certificate"
+}{
+    "title": "Course Completion Certificate",
+    "content": "Dean Didion has successfully completed the online non-credit course \"Monitoring and Observability for Development and DevOps\" authorized by IBM and offered through Coursera. Senior Technical Staff Member and DevOps Champion John J. Rofrano at IBM T.J. Watson Research Center confirms this completion. Verify at: https://coursera.org/verify/U9M048UJGQ9G. Coursera has confirmed the identity of this individual and their participation in the course.",
+    "category": "certificate"
+}{
+    "title": "Blending Project Management Methods",
+    "content": "Course completed by Dean Didion on September 7, 2023, at 08:50 AM UTC. Duration: 1 hour. The top skills covered include Agile and Waterfall Methodologies. Program provided by PMI\u00ae Registered Education Provider, Provider ID: #4101, Activity #: 4101W3KLO4, PDUs/Contact Hours: 1.00. Certificate ID: 4ba3a3dcd4b8516f234d832a523b671a9d26d92ab894656e45e262e9c25c903c. Note: The PMI Registered Education Provider logo is a registered mark of the Project Management Institute, Inc.",
+    "category": "certificate"
+}{
+    "title": "Course Completion Certificate",
+    "content": "On October 28, 2024, Dean Didion successfully completed the online non-credit course, \"Introduction to Containers with Docker, Kubernetes, and OpenShift,\" authorized by IBM and offered through Coursera. The certificate is awarded to Alex Parker, Offering Manager for IBM Cloud Kubernetes Service at IBM, and Upkar Lidder, Senior Software Engineer at IBM. Verify at: https://coursera.org/verify/LBKIMWWWB3LB. Coursera has confirmed the identity of these individuals and their participation in the course.",
+    "category": "certificate"
+}{
+    "title": "Certificates Completed by Dean Didion",
+    "content": "All certificates and information have been completed by Dean Didion. Any incorrectly assigned certificates have been corrected to reflect the proper owners. Please find the details of each certificate listed accordingly. Each entity has been reviewed for accuracy and completeness, ensuring that the right person is associated with their respective credentials.",
+    "category": "certificate"
+}{
+    "title": "Certificates Completed by Dean Didion",
+    "content": "All the certificates and information have been completed by Dean Didion. Any incorrectly assigned certificates have been corrected to reflect the appropriate person.",
+    "category": "certificate"
+}{
+    "title": "Agile at Work: Building Your Agile Team",
+    "content": "Course completed by Dean Didion on Sep 07, 2023, at 03:33 PM UTC. Duration: 55 minutes. Top skills covered include Agile Leadership. Program: PMI\u00ae Registered Education Provider. Provider ID: 4101. Activity #: 4101X1JZKX. PDUs/Contact Hours: 1.00. Certificate ID: 094d90bad11f942009ffbe7587507bbba9c9296c1de310301ebed989535a4c81.",
+    "category": "certificate"
+}{
+    "title": "Artificial Intelligence Foundations: Machine Learning Certificate",
+    "content": "The course 'Artificial Intelligence Foundations: Machine Learning' was completed by Dean Didion on September 10, 2024, at 10:28 AM UTC. The duration of the course was 1 hour and 50 minutes. It covered top skills in Machine Learning. The certificate ID for this course is 3f01a7d6f85d85c3791222204e13a807199e3d692d5d2faaf7c6f77dd347f61d.",
+    "category": "certificate"
+}{
+    "title": "Course Completion Certificate",
+    "content": "Dean Didion has successfully completed the online non-credit course 'Databases and SQL for Data Science with Python' authorized by IBM and offered through Coursera, earning honors. This information has been verified by Coursera. Verify at: https://coursera.org/verify/ELTAJ4PJ22JJ",
+    "category": "certificate"
+}{
+    "title": "Hybrid Project Management: Do What Works",
+    "content": "Course completed by Dean Didion on Sep 07, 2023, at 02:15 PM UTC. Duration: 1 hour 11 minutes. \nTop skills covered: Project Management. \nProgram: PMI\u00ae Registered Education Provider. \nProvider ID: #4101. \nActivity #: 4101YZRG1Y. \nPDUs/Contact Hours: 1.00. \nCertificate ID: e520b284dc8038e9aaedd4a43b37ab5cb6c9a1389db6c440315b3b47c1f3eb5e. \nHead of Content Strategy, Learning.",
+    "category": "certificate"
+}{
+    "title": "Certificates Completed by Dean Didion",
+    "content": "All the certificates and information have been completed by Dean Didion. Any incorrectly assigned certificates have been corrected to the appropriate individuals.",
+    "category": "certificate"
+}{
+    "title": "Certificate of Completion for Generative AI Engineering and Fine-Tuning",
+    "content": "Dean Didion has successfully completed the online non-credit course 'Generative AI Engineering and Fine-Tuning' in which Ashutosh Sagar, Fateme Akbari, and Joseph Santarcangelo participated. This course was authorized by IBM and offered through Coursera. You can verify this information at: https://coursera.org/verify/ZIJ1I0DDO9X7. Coursera has confirmed the identity of this individual and their participation in the course.",
+    "category": "certificate"
+}{
+    "title": "Six Sigma: Black Belt",
+    "content": "Course completed by Dean Didion on August 24, 2024 at 10:01 AM UTC. Duration: 2 hours 29 minutes. Top skills covered include Six Sigma Black Belt. Certificate ID: d55fd5e40ed0a485138805906dbc833d2b4201297c59301ae3d5a961d6e8e121. Role: Head of Global Content, Learning.",
+    "category": "certificate"
+}{
+    "title": "IBM AI Developer Professional Certificate",
+    "content": "Dean Didion has successfully completed the online, non-credit Professional Certificate. In this Professional Certificate, learners acquired the core knowledge and practical skills to build web applications and generative AI-powered solutions. They gained a foundational understanding of the concepts related to programming and the Software Development Lifecycle (SDLC). They learned about the concepts, techniques, and applications related to AI, including generative AI and prompt engineering. The certificate holder has demonstrated their ability to design and develop web applications using HTML, CSS, JavaScript, Python, and Flask, and build chatbots and innovative solutions using generative AI-powered models, tools, and technologies. The certificate holder is prepared for a promising career in AI development and software engineering, specializing in generative AI. The online specialization named in this certificate may draw on material from courses taught on-campus; however, the included courses are not equivalent to on-campus courses. Participation in this online specialization does not constitute enrollment at this university. This certificate does not confer a University grade, course credit or degree, and it does not verify the identity of the learner. Verify this certificate at: https://coursera.org/verify/professional-cert/FH69YBY7P8O9",
+    "category": "certificate"
+}{
+    "title": "IBM Data Science Professional Certificate",
+    "content": "Dean Didion has successfully completed the online, non-credit Professional Certificate in IBM Data Science. In this Professional Certificate, learners developed and honed hands-on skills in Data Science and Machine Learning. Learners started with an orientation of Data Science and its Methodology, became familiar and used a variety of data science tools, learned Python and SQL, performed Data Visualization and Analysis, and created Machine Learning models. In the process they completed several labs and assignments on the cloud, including a Capstone Project at the end to apply and demonstrate their knowledge and skills. The online specialization named in this certificate may draw on material from courses taught on-campus, but the included courses are not equivalent to on-campus courses. Participation in this online specialization does not constitute enrollment at this university. This certificate does not confer a University grade, course credit or degree, and it does not verify the identity of the learner. Verify this certificate at: https://coursera.org/verify/professional-cert/XBUKLSUI8F82",
+    "category": "certificate"
+}{
+    "title": "Become a Six Sigma Green Belt",
+    "content": "Learning Path completed by Dean Didion on Aug 23, 2024, at 03:40 PM UTC. Duration: 13 hours 43 minutes. Top skills covered include Six Sigma Green Belt and Project Management. Certificate ID: bbfa88d38ee56bf0e9436faf8ffe9a949758ff6f9c0804791047617ae502cdc6.",
+    "category": "certificate"
+}{
+    "title": "Certificates Issued by Dean Didion",
+    "content": "All the certificates and information have been completed by Dean Didion. Incorrectly assigned certificates have been corrected to the appropriate individuals. Please refer to the attached list for specific details on each certificate.",
+    "category": "certificate"
+}{
+    "title": "AI for Organizational Leaders",
+    "content": "AI for Organizational Leaders by Microsoft and LinkedIn Learning Path completed by Dean Didion on Jul 19, 2024, at 03:22 PM UTC. Duration: 4 hours 48 minutes. Top skills covered: Organizational Leadership, Technical Leadership, Responsible AI. Certificate ID: 5f23a353308582e7f9fd099c1fef1cdc1966ba524e25d8dc567923b02530c29c. Position: Head of Global Content, Learning.",
+    "category": "certificate"
+}{
+    "title": "Certificate Completion",
+    "content": "All certificates and information have been completed by Dean Didion. Any incorrectly assigned certificates have been corrected to reflect the proper recipients.",
+    "category": "certificate"
+}{
+    "title": "Application Development using Microservices and Serverless Certificate",
+    "content": "Dean Didion has successfully completed the online non-credit course \"Application Development using Microservices and Serverless\" authorized by IBM and offered through Coursera. The course was completed by Alex Parker, Offering Manager for IBM Cloud Kubernetes Service, IBM. Verify at: https://coursera.org/verify/RJBWIXP3LOAT. Coursera has confirmed the identity of this individual and their participation in the course.",
+    "category": "certificate"
+}{
+    "title": "Completion Certificate for Tools for Data Science",
+    "content": "On January 6, 2025, Dean Didion has successfully completed the online non-credit course 'Tools for Data Science', authorized by IBM and offered through Coursera. The individuals who have completed this course are Maureen McElaney, Romeo Kienzler, and Svetlana Levitan. Verify at: https://coursera.org/verify/9T07ZVA3BIOY. Coursera has confirmed the identity of these individuals and their participation in the course.",
+    "category": "certificate"
+}{
+    "title": "Completion Certificate for Data Science Course",
+    "content": "Dean Didion has successfully completed the online non-credit course \"What is Data Science?\" authorized by IBM and offered through Coursera. This course was verified by Coursera, confirming the identity of this individual and their participation in the course. Verify at: https://coursera.org/verify/TF5A45NN7C7L",
+    "category": "certificate"
+}{
+    "title": "Certificate of Completion for Generative AI Applications",
+    "content": "On March 20, 2025, Dean Didion successfully completed the online non-credit course \"Generative AI Applications with RAG and LangChain,\" authorized by IBM and offered through Coursera. Verify at: https://coursera.org/verify/SIQ5YJ5QKFVK. Coursera has confirmed the identity of this individual and their participation in the course.",
+    "category": "certificate"
+}
