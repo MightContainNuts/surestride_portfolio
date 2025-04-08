@@ -37,7 +37,7 @@ class DBHandler:
 
     def get_db_url(self):
         """Get the database URL."""
-        db_url = "sqlite:///db.sqlite"
+        db_url = os.getenv("DATABASE_URL")
         # if db_url and db_url.startswith("sqlite:///"):
         #     base_path = Path(__file__)
         #     db_path =  base_path / "app" / "db" / "db.sqlite"
@@ -69,9 +69,8 @@ class DBHandler:
         user = self.session.exec(select(User).where(User.username == username)).first()
         return user
 
-    def verify_password(self, user_id:int, password: str):
+    def verify_password(self, user, password: str):
         """Verify a password against the stored hashed password."""
-        user = self.session.exec(select(User).where(User.user_id == user_id)).first()
         if user:
             return User.verify_password(password, user.hashed_password)
         return False
@@ -90,7 +89,6 @@ class DBHandler:
 
     def add_user(self, username:str, email:str, hashed_password:str):
         """add a user to the database."""
-        hashed_password = User.hash_password(hashed_password)
         new_user = User(
             username=username,
             email=email,

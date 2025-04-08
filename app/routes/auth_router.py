@@ -5,6 +5,7 @@ from pydantic import BaseModel
 from sqlmodel import select
 from app.db.db_init import DBHandler
 from app.db.models import User
+import bcrypt
 
 
 auth_routes = APIRouter()
@@ -41,7 +42,7 @@ def register(
 ):
     # Check if the username already exists
     with DBHandler() as db:
-        existing_user = db.exec(select(User)).where(User.username == username).first()
+        existing_user = db.session.exec(select(User).where(User.username == username)).first()
         if existing_user:
             raise HTTPException(
                 status_code=status.HTTP_400_BAD_REQUEST,
@@ -50,22 +51,16 @@ def register(
 
         # Hash the password
         hashed_password = User.hash_password(password)
-
-        # Create a new user object
-        new_user = User(
-            username=username,
-            email=email,
-            hashed_password=hashed_password
-        )
+        print(f"Hashed password: {hashed_password}")
 
         # Add and commit to the database
-        db.add(new_user)
-        db.commit()
-        db.refresh(new_user)
+        db.add_user(username, email, hashed_password)
+
+
         print(f"User {username} registered successfully!")
         request.session["message"] = "User added. Please log in."
 
-    return RedirectResponse(url="/auth", status_code=303)
+    return RedirectResponse(url="/chat", status_code=303)
 
 # Handle login
 @auth_routes.post("/login")
@@ -73,11 +68,13 @@ async def login(request: Request, username: str = Form(...), password: str = For
     with DBHandler() as db:
         user = db.get_user_by_username(username)
         print(f"User fetched: {user}")
-        user_id = user.user_id if user else None
-        is_valid_password = db.verify_password(user_id,password)
+        print(f"Plain password: {password}")
+        print(f"Hashed password in database: {user.hashed_password}")
+        is_valid_password = bcrypt.checkpw(password.encode('utf-8'), user.hashed_password.encode('utf-8'))
     if not user or not is_valid_password:
         request.session["message"] = "Invalid credentials"
-        return RedirectResponse(url="/auth", status_code=303)
+        print(f"Invalid credentials for user {username}")
+        return RedirectResponse(url="/auth/auth", status_code=303)
 
     request.session["user_id"] = user.user_id
     return RedirectResponse(url="/chat", status_code=303)

@@ -41,3 +41,9 @@ class Documents(SQLModel, table=True):
     created_on: datetime = Field(default_factory=datetime.now)
 
 
+
+if __name__ == "__main__":
+    user = User()
+    hashed_pw = user.hash_password("12345")
+    print(f"Hashed password: {hashed_pw}")
+    print(f"Password verification: {user.verify_password('12345', hashed_pw)}")
