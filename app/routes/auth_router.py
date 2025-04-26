@@ -67,9 +67,11 @@ def register(
 async def login(request: Request, username: str = Form(...), password: str = Form(...)):
     with DBHandler() as db:
         user = db.get_user_by_username(username)
+        if not user:
+            request.session["message"] = "Invalid credentials"
+            print(f"Invalid credentials for user {username}")
+            return RedirectResponse(url="/auth/auth", status_code=303)
         print(f"User fetched: {user}")
-        print(f"Plain password: {password}")
-        print(f"Hashed password in database: {user.hashed_password}")
         is_valid_password = bcrypt.checkpw(password.encode('utf-8'), user.hashed_password.encode('utf-8'))
     if not user or not is_valid_password:
         request.session["message"] = "Invalid credentials"
